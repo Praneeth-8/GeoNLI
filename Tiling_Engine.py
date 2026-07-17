@@ -1,5 +1,6 @@
 import cv2
-
+import math
+from ultralytics import YOLO
 IMAGE_PATH="" 
 
 
@@ -26,3 +27,27 @@ def generate_tiles(img,tile_h,tile_w,overlap=0):
         y += stride_h
 
     return tiles
+
+model = YOLO("yolo11n-obb.pt")
+
+def yolo_detect_fn(tile_img):
+    results = model.predict(tile_img, verbose=False)
+    result = results[0]
+
+    detections = []
+    if result.obb is None or len(result.obb) == 0:
+        return detections
+
+    xywhr = result.obb.xywhr.cpu().numpy()   # angle comes back in RADIANS
+    confs = result.obb.conf.cpu().numpy()
+    classes = result.obb.cls.cpu().numpy().astype(int)
+
+    for (cx, cy, w, h, angle_rad), conf, cls_id in zip(xywhr, confs, classes):
+        detections.append({
+            "cx": float(cx), "cy": float(cy),
+            "w": float(w), "h": float(h),
+            "angle_deg": math.degrees(angle_rad),
+            "score": float(conf),
+            "class_id": int(cls_id),
+        })
+    return detections
