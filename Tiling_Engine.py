@@ -51,3 +51,27 @@ def yolo_detect_fn(tile_img):
             "class_id": int(cls_id),
         })
     return detections
+
+def remap_to_global(detections, tile, edge_margin=5):
+    tile_h, tile_w = tile["tile"].shape[0], tile["tile"].shape[1]
+    global_dets = []
+
+    for d in detections:
+        x1, x2 = d["cx"] - d["w"] / 2, d["cx"] + d["w"] / 2
+        y1, y2 = d["cy"] - d["h"] / 2, d["cy"] + d["h"] / 2
+
+        touches_edge = (
+            x1 <= edge_margin or x2 >= tile_w - edge_margin or
+            y1 <= edge_margin or y2 >= tile_h - edge_margin
+        )
+
+        global_dets.append({
+            "cx": d["cx"] + tile["x"],
+            "cy": d["cy"] + tile["y"],
+            "w": d["w"], "h": d["h"],
+            "angle_deg": d["angle_deg"],
+            "score": d["score"],
+            "class_id": d["class_id"],
+            "touches_edge": touches_edge,
+        })
+    return global_dets
