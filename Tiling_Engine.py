@@ -7,6 +7,7 @@ IMAGE_PATH=""
 
 
 img = cv2.imread(IMAGE_PATH) # numpy array of the image
+# generate manageable tiles for object detection to captioning
 def generate_tiles(img,tile_h,tile_w,overlap=0):
     img_height=img.shape[0]
     img_width=img.shape[1]
@@ -30,30 +31,7 @@ def generate_tiles(img,tile_h,tile_w,overlap=0):
 
     return tiles
 
-model = YOLO("yolo11n-obb.pt")
-
-def yolo_detect_fn(tile_img):
-    results = model.predict(tile_img, verbose=False)
-    result = results[0]
-
-    detections = []
-    if result.obb is None or len(result.obb) == 0:
-        return detections
-
-    xywhr = result.obb.xywhr.cpu().numpy()   # angle comes back in RADIANS
-    confs = result.obb.conf.cpu().numpy()
-    classes = result.obb.cls.cpu().numpy().astype(int)
-
-    for (cx, cy, w, h, angle_rad), conf, cls_id in zip(xywhr, confs, classes):
-        detections.append({
-            "cx": float(cx), "cy": float(cy),
-            "w": float(w), "h": float(h),
-            "angle_deg": math.degrees(angle_rad),
-            "score": float(conf),
-            "class_id": int(cls_id),
-        })
-    return detections
-
+#turn local co-ordinates to global
 def remap_to_global(detections, tile, edge_margin=5):
     tile_h, tile_w = tile["tile"].shape[0], tile["tile"].shape[1]
     global_dets = []
@@ -87,6 +65,7 @@ def obb_to_polygon(cx, cy, w, h, angle_deg):
     return Polygon([(x + cx, y + cy) for x, y in box.exterior.coords])
 
 
+#check whether the bounding boxes show the same object or not
 def rotated_iou(a, b):
     pa = obb_to_polygon(a["cx"], a["cy"], a["w"], a["h"], a["angle_deg"])
     pb = obb_to_polygon(b["cx"], b["cy"], b["w"], b["h"], b["angle_deg"])
@@ -96,7 +75,7 @@ def rotated_iou(a, b):
     union = pa.union(pb).area
     return inter / union if union > 0 else 0.0
 
-
+#merge the tiles if the object detected is same with confidence above a threshold
 def merge_detections(detections, iou_threshold=0.5, edge_center_dist=40):
     """
     detections: flat list of global-coordinate detection dicts
