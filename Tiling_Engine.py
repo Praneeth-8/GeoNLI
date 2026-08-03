@@ -1,6 +1,5 @@
 import cv2
 import math
-from ultralytics import YOLO
 from shapely.geometry import Polygon
 from shapely.affinity import rotate as shapely_rotate
 IMAGE_PATH="" 
