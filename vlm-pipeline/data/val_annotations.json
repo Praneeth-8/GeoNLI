@@ -1,0 +1,1802 @@
+[
+  {
+    "image_id": "06863_0000.png",
+    "ground_truth": "A high-resolution satellite image sourced from GoogleEarth shows two parallel bridges crossing over a body of water, with adjacent land areas to the east and west. The bridges feature a solid grey roadway surface and are of similar design and width. The surrounding area includes bodies of water with irregular shapes indicative of a natural watercourse, and patches of greenery typical of a riverside environment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5446,
+    "type": "caption"
+  },
+  {
+    "image_id": "09522_0000.png",
+    "ground_truth": "Aerial view of a small airplane on a tarmac, captured via Google Earth. The aircraft is positioned on a concrete surface with visible roadway markings.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7579,
+    "type": "caption"
+  },
+  {
+    "image_id": "06749_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a dense urban environment with a variety of buildings and a small train station. The train station is a prominent structure visible in the right side of the image. Tightly packed residential and commercial buildings can be seen around the station, with roads intersecting between them. The variety of rooftop colors and shapes indicates a mixture of residential and industrial areas.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5355,
+    "type": "caption"
+  },
+  {
+    "image_id": "06923_0000.png",
+    "ground_truth": "The satellite image from GoogleEarth shows a distinct landscape with a dam located at the bottom left. Surrounding the dam are various terrains including water bodies, patches of vegetation, and residential areas with numerous houses arranged in close proximity to each other. The dam in the image is small and situated along the edge of a water body, effectively contrasting with the nearby natural and developed areas.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5491,
+    "type": "caption"
+  },
+  {
+    "image_id": "05951_0000.png",
+    "ground_truth": "Aerial view from GoogleEarth showcasing a stadium at the bottom right section of the image, surrounded by greenery, roads and tightly packed buildings. Multiple vehicles are visible around the vicinity of the stadium and other parts of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4728,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0114.png",
+    "ground_truth": "The aerial image presents a high-resolution view of an urban area, where several small vehicles are parked around buildings with gray rooftops. There are nine small vehicles visible, parked in various positions such as middle-left, top-left, bottom-left, and on the left edge of the image. Some vehicles are positioned closer to the buildings, while others are nearer to the streets.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4540,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0118.png",
+    "ground_truth": "The high-resolution image from GoogleEarth depicts an area with industrial features including two prominent storage tanks. The storage tanks are circular with flat tops and are similar in size. They are positioned near the center and bottom of the image field.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2901,
+    "type": "caption"
+  },
+  {
+    "image_id": "09565_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features a rural landscape with fields and a small, circular storage tank in the bottom-right corner. Adjacent to the tank, there is a large field devoid of any significant vegetation.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7612,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1583_0064.png",
+    "ground_truth": "The grayscale high-resolution image displays a section of what appears to be a suburban environment captured by JL source. There is a small baseball diamond situated towards the bottom-middle of the image with its infield and certain base paths slightly visible.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2504,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0117.png",
+    "ground_truth": "This high-resolution image from GoogleEarth features a portion of an airport. There are two  large vehicles in the bottom-right section near the edge of a runway. Additionally, there is a small storage tank located at the very bottom within the boundaries of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2900,
+    "type": "caption"
+  },
+  {
+    "image_id": "06180_0000.png",
+    "ground_truth": "This is an image of a Google Earth snapshot showing an expressway service area surrounded by dense vegetation. The service area is positioned to the center of the image and spans horizontally. In the vicinity of the service area, multiple small vehicles are seen parked. Specifically, there are three vehicles in the bottom-right of the image. One of the vehicles is positioned at the middle-right of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4905,
+    "type": "caption"
+  },
+  {
+    "image_id": "11418_0000.png",
+    "ground_truth": "The image from GoogleEarth features multiple buildings with varying roof sizes surrounded by green areas, and a small ship is positioned in the top-right corner of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 9104,
+    "type": "caption"
+  },
+  {
+    "image_id": "06819_0000.png",
+    "ground_truth": "An aerial image from GoogleEarth showcasing two overpasses running perpendicular to a main thoroughfare. There is no vertical indication in the image, and no additional resolution details are provided. The overpasses are separated by a section of the thoroughfare and extend across it. Amidst the road lanes, two vehicles can be seen, one closer to the bottom-left of the image and another situated near the bottom-middle.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5413,
+    "type": "caption"
+  },
+  {
+    "image_id": "09484_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows three storage tanks of varying sizes on a paved surface, with some smaller structures visible nearby. The surface is marked with various pipes connected to the storage tanks.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7546,
+    "type": "caption"
+  },
+  {
+    "image_id": "09820_0000.png",
+    "ground_truth": "The aerial image captures a segment of an expressway and its adjacent service area. Visible within the frame are small vehicles located on the expressway: one near the top left, another near the bottom right, and the third to the right side of the image. An expressway service area is evident with a building structure and parking spaces, noticeable due to its significant size in comparison to the surrounding vehicles. The image is sourced from GoogleEarth.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7811,
+    "type": "caption"
+  },
+  {
+    "image_id": "07861_0000.png",
+    "ground_truth": "The image from GoogleEarth features an industrial area with buildings of various sizes and a mix of roofing colors. Notable in the image are several storage tanks, situated towards the center. In the bottom left of the image, there is a distinct small vehicle.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6245,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1075_0033.png",
+    "ground_truth": "This high-resolution image from GoogleEarth features a residential area with houses and vehicles. Visible are parked small vehicles and two swimming pools.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1200,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1390_0047.png",
+    "ground_truth": "The high-resolution image from GoogleEarth showcases four small planes on a tarmac adjacent to a runway. These planes are aligned diagonally from the top left to the bottom right. There's a visible road that runs horizontally across the top section of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1989,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1007_0030.png",
+    "ground_truth": "The high-resolution GoogleEarth image depicts a small harbor located at the bottom of the frame, accompanied by small ships dispersed around its vicinity.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1058,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0228_0004.png",
+    "ground_truth": "The high-resolution image from Google Earth shows an aerial view of a recreational area. There are two small tennis courts, one positioned on the left and the other to the right. Small-vehicle is parked at the top-middle of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 243,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2802_0019.png",
+    "ground_truth": "This high-resolution image from GoogleEarth displays a small plane positioned on an airport tarmac.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3986,
+    "type": "caption"
+  },
+  {
+    "image_id": "10975_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows an aerial view of a river with adjacent urban development. On the bottom-right, there is a small ground track field with a distinctive rectangular shape. Spanning the river are two bridges. The top-most bridge, located slightly left of the center of the image, is horizontally aligned with the river flow. The other bridge is positioned near the lower left corner of the image and also runs horizontal to the river's flow.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8749,
+    "type": "caption"
+  },
+  {
+    "image_id": "09099_0000.png",
+    "ground_truth": "Aerial view of vehicles and a building from GoogleEarth. The focus is on three vehicles, with one located on the left side, another on the middle-right, and the last one at the bottom-right corner adjacent to the building. Vegetation is along the edges.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7251,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5070_0094.png",
+    "ground_truth": "This high-resolution aerial image captures an urban area with a large tram stretching diagonally across the scene and a small vehicle located near the top middle. The tram exhibits multiple sections connected together. The small vehicle appears to be a car parked on what seems to be a street.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4183,
+    "type": "caption"
+  },
+  {
+    "image_id": "09327_0000.png",
+    "ground_truth": "The image from GoogleEarth features a dam with a significant body of water on the upper side.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7428,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0962_0002.png",
+    "ground_truth": "This high-resolution image from GoogleEarth showcases a small harbor positioned at the bottom-left of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 886,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2330_0069.png",
+    "ground_truth": "This Google Earth image captures a section of the ocean with a cloudy sky. Visible in the image is a small ship located towards the bottom of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3237,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1410_0000.png",
+    "ground_truth": "This high-resolution image obtained from Google Earth shows a residential area with a mix of single-story houses and vegetated lots. The houses are mostly rectangular with different roof colors. Several small vehicles are visible, parked adjacent to the houses or on the streets.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2143,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2802_0087.png",
+    "ground_truth": "The high-resolution image from GoogleEarth shows a section of an airport tarmac with two small planes. The planes are parked and positioned parallel to each other, with one located towards the top of the image and the other positioned closer to the bottom.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4012,
+    "type": "caption"
+  },
+  {
+    "image_id": "08629_0000.png",
+    "ground_truth": "The GoogleEarth image shows a facility with a cluster of storage tanks. There are five large circular storage tanks arranged in close proximity to each other. There's a road running parallel to the bottom edge of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6865,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1560_0038.png",
+    "ground_truth": "This high-resolution grayscale aerial image provided by JL features an identifiable baseball diamond with its distinctive infield and outfield layout located on the right side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2444,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1242_0003.png",
+    "ground_truth": "This high-resolution grayscale image captured by GF showcases an industrial area with multiple storage tanks and buildings. Notably, there are at least six small storage tanks visible in the top-right and top-middle sections of the image. The tanks seem systematically arranged amidst the surrounding infrastructure.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1489,
+    "type": "caption"
+  },
+  {
+    "image_id": "07963_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays a section of a recreational area with a predominant presence of trees viewed from above. Visible in the top-right corner of the image are two small basketball courts adjacent to each other.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6325,
+    "type": "caption"
+  },
+  {
+    "image_id": "07912_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, captures a section of land with vehicles and surrounding greenery. Three large vehicles are on a roadway located at the topmost part, the second is at the bottom-left corner, and the third one is at the bottom-most part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6286,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1432_0021.png",
+    "ground_truth": "The image, sourced from GoogleEarth with high resolution, displays an urban area with a distinct pattern of buildings with blue rooftops. Prominently featured are two basketball courts having distinct orange hues, each with four corner points forming their rectangular shapes. The lower basketball court is closer to the bottom edge of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2200,
+    "type": "caption"
+  },
+  {
+    "image_id": "06889_0000.png",
+    "ground_truth": "An aerial view of an industrial area captured via GoogleEarth shows a large storage tank with a prominent round shape. The tank has a distinct white roof top that contrasts with the surrounding ground tone and infrastructure details.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5464,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1314_0052.png",
+    "ground_truth": "The high-resolution image from GF depicts a grayscale urban landscape with various buildings and infrastructures. Notably, there is a small bridge spanning over a water body.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1622,
+    "type": "caption"
+  },
+  {
+    "image_id": "07183_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a ship positioned on the left side of the frame against a dark backdrop. There is no additional information about the image resolution or color specifics provided. The ship is relatively small and occupies a substantial portion of the vertical space of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5700,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5789_2803.png",
+    "ground_truth": "The high-resolution grayscale image provided by GF showcases an urban area with a dense arrangement of structures and two visible bridges. One bridge is located in the top-middle area, while the other is positioned towards the top-right. Both bridges are small in size and are connecting separate sections of the urban environment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4362,
+    "type": "caption"
+  },
+  {
+    "image_id": "P3957_0003.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features a predominantly urban landscape adjacent to a body of water, possibly a river or a coastal inlet. There is a small bridge located towards the bottom middle of the image, connecting two banks of the waterway.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4066,
+    "type": "caption"
+  },
+  {
+    "image_id": "09723_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays an aerial view of a terrain with noticeable agricultural patterns and a single windmill. The windmill appears relatively small and is located towards the center of the image, standing out against the background due to its distinct shape.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7736,
+    "type": "caption"
+  },
+  {
+    "image_id": "06735_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows a landscape with agricultural fields and an expressway service area. There are two small expressway service areas visible, one positioned more towards the middle-right of the image and another one towards the bottom-right. Additionally, a small overpass is observed on the right side of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5344,
+    "type": "caption"
+  },
+  {
+    "image_id": "09694_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows an aerial view of an area with various buildings and adjacent plots of land having different textures. There are five small vehicles adjacent to the road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7711,
+    "type": "caption"
+  },
+  {
+    "image_id": "10897_0000.png",
+    "ground_truth": "An aerial image sourced from GoogleEarth captures a section of a harbor with multiple ships and a vehicle. There are two ships in the frame: one large ship oriented horizontally near the top edge and another smaller ship located near the bottom-left corner. Additionally, a small harbor occupies the lower part of the image, and a solitary vehicle is situated at the bottom-left part of the harbor.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8687,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0027_0003.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth depicts a rural area with vegetation and buildings with dark rooftops. A small vehicle is in the middle-right section of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 63,
+    "type": "caption"
+  },
+  {
+    "image_id": "07705_0000.png",
+    "ground_truth": "The image, sourced from Google Earth, features two small tennis courts located in close proximity to each other with no specified image resolution. The tennis court on the right side has a similar size and orientation to the court on the left side. Surrounding the courts are patches of green space.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6126,
+    "type": "caption"
+  },
+  {
+    "image_id": "06158_0000.png",
+    "ground_truth": "The aerial image sourced from GoogleEarth shows an airport occupying a significant portion of the view. The airport's layout includes several buildings and a few hangars, with a network of roads surrounding it.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4889,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1315_0038.png",
+    "ground_truth": "This high-resolution image from GF showcases a small bridge located in the top-middle section, crossing over a river in an urban environment. The grayscale tones of the image emphasize the densely packed buildings surrounding the waterway and the structured layout of the area. The bridge connects two land masses and stands out as a link between the urban blocks.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1638,
+    "type": "caption"
+  },
+  {
+    "image_id": "11138_0000.png",
+    "ground_truth": "The image from GoogleEarth features a small ground track field surrounded by a dense growth of trees. The track has a distinctive elongated oval shape with visible markings consistent with athletic tracks. Adjacent to the track, on its southeastern side, there are several rectangular structures, possibly storage units or small buildings, that are connected to the track by a narrow path.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8879,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2197_0016.png",
+    "ground_truth": "The high-resolution image provided by GoogleEarth shows a scene with several small vehicles and a mix of buildings and trees. The vehicles vary in placement, with some situated along the edges of roads and others in parking areas. The terrain is a combination of natural and built environments, featuring both densely wooded areas and constructed spaces.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3114,
+    "type": "caption"
+  },
+  {
+    "image_id": "05872_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a portion of a landscape with notable features including an expressway toll station situated at the bottom part of the frame. The toll station is characterized by its distinct structure at the bottom edge of the image, which is accompanied by two vehicles in its vicinity. The first vehicle is positioned middle-right within the frame. The second vehicle is located bottom-right. Vegetation and infrastructure elements are also visible around the toll station and vehicles.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4673,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1410_0067.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows a large stadium with numerous rows of seating and adjacent structures. In the foreground, there is a parking lot with two distinct small vehicles and trees lined up between parking rows. One of the vehicles is positioned at the bottom middle of the image and is notably larger than the other vehicles. The third vehicle, distinguished by being the left-most in the bottom middle section, appears alongside the other parked cars.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2167,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1471_0070.png",
+    "ground_truth": "The image, sourced from GoogleEarth with a high resolution, features an area containing small vehicles. Specifically, there are two small vehicles located at the bottom-middle and bottom-right of the image, with a large small vehicle on the bottom-right exhibiting the largest relative size among its class. Additionally, a top-most small vehicle is situated at the bottom-middle. The background shows a patchwork of surfaces and structures that suggest an urban environment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2290,
+    "type": "caption"
+  },
+  {
+    "image_id": "08549_0000.png",
+    "ground_truth": "This Google Earth image shows a water body flanked by land with vegetation, near which there is a dam situated on the lower-right side, extending from the center to the right edge of the image. The dam connects with a road that runs parallel through a wooded area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6798,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0242_0004.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows a variety of sports courts, including a basketball court located in the top-left corner, and several tennis courts. A total of six tennis courts are present in the bottom half of the image, arranged in two rows of three, each court featuring the recognizable blue surface with white boundary lines.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 251,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2789_0086.png",
+    "ground_truth": "The high-resolution image from GoogleEarth features an area with access to a body of water. There are multiple ships moored or docked along the edge of the water, varying in size and orientation. One unique object is identified as a small vehicle located at the bottom-middle part of the image. The scene also includes buildings and docks near the water, and there are debris scattered around the area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3923,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0141.png",
+    "ground_truth": "This high-resolution aerial image showcases a variety of small vehicles on a road network with distinct lanes and markings. The lanes are mostly empty except for several vehicles positioned at various points along the road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4557,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5070_0064.png",
+    "ground_truth": "The high-resolution aerial image captures an urban scene with a multi-story building and a network of streets surrounding it. Several small vehicles are visible on the roads, with some parked at various locations. A distinct vehicle can be noticed in the bottom-right area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4177,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2745_0016.png",
+    "ground_truth": "This color aerial image from GoogleEarth has a medium resolution and showcases a densely forested area. In the lower central part of the image, there is a small, round storage tank that stands out due to its contrasting white color against the dark background of the trees.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3782,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2678_0002.png",
+    "ground_truth": "A high-resolution satellite image from Google Earth features small ships docked along a quay. There is a group of ships identifiable, with the majority concentrated towards the bottom-right corner of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3613,
+    "type": "caption"
+  },
+  {
+    "image_id": "10714_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features an aerial view of an airport scene with one prominent airplane visible on the tarmac. The airplane is positioned such that its wings extend towards the bottom-right of the image. The tarmac appears to be surrounded by grass areas with visible track marks, and there are a few trees discernible around the perimeter.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8540,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2593_0000.png",
+    "ground_truth": "The high-resolution image from GoogleEarth displays a section of sports grounds, with a track field surrounded by lush green areas. There is a small vehicle in the top-right corner of the image, near the edge of the pavement adjacent to a cultivated field.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3483,
+    "type": "caption"
+  },
+  {
+    "image_id": "07612_0000.png",
+    "ground_truth": "Aerial view of a section of tarmac featuring a small airplane positioned on the right side. The image is from Google Earth. The tarmac is marked with various painted lines and there are structures adjacent to the tarmac.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6053,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1380_0051.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows a roundabout with several vehicles positioned around it. The circular shape of the roundabout is evident in the center of the image. Small patches of greenery are visible near the roundabout. Among the vehicles present, there are two discernible small vehicles: one located towards the top-left of the roundabout and the other at the bottom-most edge near a road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1874,
+    "type": "caption"
+  },
+  {
+    "image_id": "08814_0000.png",
+    "ground_truth": "The image from GoogleEarth features two ships moored in water.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7018,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1371_0014.png",
+    "ground_truth": "The grayscale image from a GF source showcases a high-resolution view of an industrial area with at least two visible storage tanks. The first tank is located towards the bottom of the image, with its long axis oriented horizontally and articulated corners. The surrounding structures and ground patterns indicate a complex that includes these storage tanks.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1786,
+    "type": "caption"
+  },
+  {
+    "image_id": "10081_0000.png",
+    "ground_truth": "The aerial image provided by GoogleEarth shows a landscape with various parcels of land, some of which appear to be agricultural fields, and a portion of a highway extending from east to west. On the middle-right side of the image, there is a small expressway service area, while on the far left side, a small expressway toll station is visible.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8022,
+    "type": "caption"
+  },
+  {
+    "image_id": "05913_0000.png",
+    "ground_truth": "Aerial view of a recreational area captured via Google Earth featuring green spaces and recreational facilities. There is a tennis court located in the lower right quadrant of the image with well-defined boundary lines and a playing surface.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4700,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1095_0016.png",
+    "ground_truth": "The image, sourced from GoogleEarth with high resolution, depicts a waterfront scene with three small harbor structures extending into the water. The topmost harbor is located near the top edge of the image and has a clear view of its four corners. The second harbor structure can be seen further down, with its four corners clearly defined within the image bounds. A third harbor is situated to the left side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1225,
+    "type": "caption"
+  },
+  {
+    "image_id": "08491_0000.png",
+    "ground_truth": "Aerial view captured by GoogleEarth showing a portion of an urban area with a variety of structures. Prominent in the view is a stadium with a green pitch surrounded by a running track and seating areas. Adjacent to the stadium are several buildings with different roof colors, but mostly red. A large, cleared, dirt area is also visible near the bottom left.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6751,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0998_0021.png",
+    "ground_truth": "The high-resolution image from Google Earth displays a curve in a road that cuts through a residential area. Along one side of the curve, there is a solitary small vehicle parked near the bottom-right of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1001,
+    "type": "caption"
+  },
+  {
+    "image_id": "10615_0000.png",
+    "ground_truth": "The aerial image from Google Earth features a residential area with clear details of roads, homes, and vehicles. Along the roadside, two small vehicles are parked, one closer to the bottom-middle of the image and the other towards the bottom-right.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8464,
+    "type": "caption"
+  },
+  {
+    "image_id": "P9031_0001.png",
+    "ground_truth": "The aerial image sourced from GoogleEarth shows a dense urban area with a mix of residential and industrial buildings. The roofs of the industrial buildings are predominantly blue, while the residential areas feature a red-roofed housing pattern. There is a small ground track and field in the center of the image, surrounded by these residential and industrial zones. The image, with no specified resolution, captures the urban grid layout in detail.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4649,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0006.png",
+    "ground_truth": "The aerial high-resolution image showcases a diverse scene with vehicles and a basketball court adjacent to a grassy area. There are five small vehicles parked along the bottom edge, with their positions ranging from the bottom-left to the bottom-right corner of the image. Additionally, there is a basketball court located on the right side of the frame, characterized by its well-defined white boundary lines on a dark surface. The surrounding environment includes grassy fields and trees.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4497,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2678_0044.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth captures part of an industrial facility with storage tanks and small vehicles. There is a distinctive circular storage tank visible on the left side of the image, while various other smaller tanks and vehicles can be seen clustered at the bottom and upper right corners of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3629,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5070_0124.png",
+    "ground_truth": "The aerial image captured at high resolution shows a detailed view of an urban intersection with various elements including roads, pedestrian crosswalks, buildings, trees, and a large vehicle. The large vehicle, a tractor with a trailer, is located at the top center of the intersection.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4198,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1471_0038.png",
+    "ground_truth": "An aerial image sourced from Google Earth with high resolution presents a scene with two distinguishable vehicles at the top-left corner. The first vehicle is large and the second smaller in size.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2266,
+    "type": "caption"
+  },
+  {
+    "image_id": "07773_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays a rural landscape featuring multiple windmills scattered across the terrain. The windmills are small in size relative to the image's scale and are positioned at various locations including the middle-left, top-right, and bottom of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6180,
+    "type": "caption"
+  },
+  {
+    "image_id": "06051_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth features three baseball fields in various positions. One baseball field is in the bottom part of the frame, while another is situated on the left side, and the last field is in the right half of the frame. All fields show a characteristic diamond shape with a brown infield and surrounding green areas.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4804,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1583_0056.png",
+    "ground_truth": "A high-resolution grayscale image from JL showing a section of an airport with multiple roadways and a small plane positioned on the tarmac. The runways are marked with clear white lines.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2503,
+    "type": "caption"
+  },
+  {
+    "image_id": "09866_0000.png",
+    "ground_truth": "The image from GoogleEarth features an area with a partially damaged storage tank with its dome roof partially collapsed. The surrounding area includes a track at the upper left corner and a part of a building with a dark roof at the bottom right corner. There is an assortment of trees and a small park area with grass near the storage tank.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7847,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1410_0031.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows a sports complex with three baseball diamonds arranged in close proximity. Each diamond features the characteristic infield dirt and a surrounding grassy outfield. The top-most baseball diamond is the smallest of the three and located at the northern part of the complex, the bottom-most one lies at the southern end, and the right-most baseball diamond is situated on the eastern side.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2153,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1179_0114.png",
+    "ground_truth": "This high-resolution image from Google Earth features an airport tarmac with visible plane shadows, markings for gate numbers, and a clear view of a stationary large airplane. The airplane's distinctive liveried fuselage and extended wings span across the tarmac.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1402,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2085_0000.png",
+    "ground_truth": "The high-resolution image provided by GoogleEarth features two tennis courts. The courts are oriented diagonally within the frame. The first court, located to the right and is partially obstructed by trees. The second court, positioned to the left is similarly limited in visibility due to the surrounding trees.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3044,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0420_0001.png",
+    "ground_truth": "The image, sourced from GoogleEarth with high resolution, depicts a section of a water body with surrounding greenery. On the right side of the image, there is a small harbor extending into the water from the verdant shoreline.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 400,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0466_0001.png",
+    "ground_truth": "The aerial image from GoogleEarth shows a high-resolution view of a recreational area surrounded by vegetation. There are three tennis courts arranged vertically. The courts are small in size and share consistent coloring and markings.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 422,
+    "type": "caption"
+  },
+  {
+    "image_id": "06815_0000.png",
+    "ground_truth": "The image from GoogleEarth features a stadium on the right side with its structure occupying a significant portion of the frame. Adjacent to it, there's a dense cluster of trees, and two overpasses are prominently seen in the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5409,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2167_0003.png",
+    "ground_truth": "The image, sourced from GoogleEarth at a medium resolution, depicts a barren terrain with a storage tanks and a curvy dirt road winding through the landscape. There are a total of three storage tanks placed towards the bottom of the image, the second tank is towards the bottom-left area, slightly north of the first one, and the third tank is positioned further left from the second and close to the image's bottom-left corner.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3073,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0051.png",
+    "ground_truth": "The aerial image depicts a high-resolution view of a parking area with several small vehicles. Four distinct small vehicles can be identified with varying positions on the surface. There are trees lining one side of the parking space, casting shadows onto the ground. The image also shows parts of adjacent buildings.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4583,
+    "type": "caption"
+  },
+  {
+    "image_id": "08540_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth features a sports complex with an adjacent baseball field and an athletics track. The left baseball field is marked with standard bases, a pitching mound, and a surrounding fence. The track comprises multiple lanes for running and is positioned to the right of the baseball field. Surrounding areas include paved parking lots and roads.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6790,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2599_0001.png",
+    "ground_truth": "This high-resolution image sourced from GoogleEarth features a pair of tennis courts with distinct red-brown surfaces, surrounded by greenery. The left-most tennis court is positioned towards the top center of the image, while the right-most one spans from the center to the top right corner. Below these courts, there's a line of white roofs indicating a row of small structures. On the bottom left, there's a smaller sized, red-colored small vehicle, and further to the right, there's a larger sized small vehicle situated at the bottom edge.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3510,
+    "type": "caption"
+  },
+  {
+    "image_id": "08402_0000.png",
+    "ground_truth": "The image, sourced from Google Earth, displays a natural landscape featuring a small dam. The dam is constructed along the water's edge, running diagonally from the center to the bottom right of the image, separating the water body from the dense vegetation on the land.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6690,
+    "type": "caption"
+  },
+  {
+    "image_id": "07679_0000.png",
+    "ground_truth": "This aerial image from Google Earth features a densely packed urban area dominated by buildings: houses with various rooftop colors and a notable stadium with a green field.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6105,
+    "type": "caption"
+  },
+  {
+    "image_id": "06557_0000.png",
+    "ground_truth": "This image sourced from GoogleEarth features residential houses, lush greenery, and a large circular storage tank at the bottom-right corner. Vehicles of varying sizes are parked around the houses, with a tree-lined street meandering through the neighborhood. A distinct circular white storage tank stands prominently against the surrounding landscapes.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5204,
+    "type": "caption"
+  },
+  {
+    "image_id": "07301_0000.png",
+    "ground_truth": "An aerial image from GoogleEarth presents a large ship situated in a body of water, which occupies a significant portion of the bottom half of the image. The ship is docked, with its structure extending horizontally across the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5804,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1342_0000.png",
+    "ground_truth": "The high-resolution grayscale image provided by GF features an urban area with densely packed buildings, roads, and a unique ground-track-field located at the bottom-middle part of the frame. The ground-track-field is clearly visible and is surrounded by the urban infrastructure.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1697,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1384_0003.png",
+    "ground_truth": "The high-resolution image from GoogleEarth shows a residential area with a number of houses, roads, and swimming pools. The pools are small in size and are scattered within the property boundaries of individual houses. At the bottom left, there is a swimming pool bordered by a lush garden. At the top left of the image, another pool can be found in the backyard of a house. Additionally, there is a pool located more centrally towards the top of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1886,
+    "type": "caption"
+  },
+  {
+    "image_id": "08215_0000.png",
+    "ground_truth": "The image from GoogleEarth shows a landscape with a windmill positioned in the bottom-right quadrant of the image. The windmill's blades are distinct against the background. The image depicts a rural landscape with scattered vegetation.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6537,
+    "type": "caption"
+  },
+  {
+    "image_id": "P4151_0072.png",
+    "ground_truth": "The high-resolution aerial image displays a section of buildings with flat rooftops, where different kinds of rooftop installations and architectural elements are visible. There is one unique small vehicle visible on the bottom-right side of the image,.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4114,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0019_0100.png",
+    "ground_truth": "High-resolution image from GoogleEarth showing a section of a coastal area with two small harbors and one ship. The ship is located at the bottom-left corner of the image sitting close to the harbo. The first harbor is in the bottom on the image and another is the top, which has a larger area that extends horizontally across the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 58,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0659_0005.png",
+    "ground_truth": "A high-resolution GoogleEarth image shows two adjacent tennis courts surrounded by verdant tree coverage. The courts are situated side by side with a relatively small patch of dirt ground visible in the lower middle area. The tennis courts are in good condition with clear demarcation lines on a darker playing surface.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 601,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0073.png",
+    "ground_truth": "The high-resolution image provided by GoogleEarth features an airport tarmac with multiple airplanes visible. The tarmac has visible marking lines, and among the aircraft, a small vehicle is located near the top right area of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2870,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0974_0010.png",
+    "ground_truth": "The image, sourced from GoogleEarth, depicts a high-resolution view of a harbor, which located in the left part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 941,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0084.png",
+    "ground_truth": "The high-resolution image from GoogleEarth depicts a section of an airport tarmac with several small vehicles and large aircraft visible. The tarmac features markings and parking areas for planes. A small vehicle is positioned near the center of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2876,
+    "type": "caption"
+  },
+  {
+    "image_id": "10076_0000.png",
+    "ground_truth": "This aerial image provided by GoogleEarth shows a bridge running from the left to the right along the bottom of the image. The bridge is surrounded by patches of green areas that appear to be vegetation, possibly trees or shrubs.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8017,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1471_0067.png",
+    "ground_truth": "This high-resolution image from GoogleEarth depicts a scene with multiple vehicles on a section of roadway surrounded by trees. The details include one large vehicle and six small vehicles, though the specific features of these vehicles are not described.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2287,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0145.png",
+    "ground_truth": "The aerial high-resolution image shows a portion of a road with marked lanes and surrounding areas with various features including trees casting shadows. There are four small vehicles within the captured frame, positioned at different points along the road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4558,
+    "type": "caption"
+  },
+  {
+    "image_id": "09807_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features a suburban area with a tennis court, several houses, and three distinct vehicles. The tennis court is situated in the right portion of the image with a marked green playing surface and is surrounded by a track area. To the left, houses with dark roofs and green yards can be seen. One vehicle is visible near the bottom-left corner of the image on a road, while another can be observed near the center parked on the side of a street.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7800,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0119.png",
+    "ground_truth": "A high-resolution aerial image captures a small urban area with roads and vehicles. There are three small vehicles visible in different positions: One vehicle is placed at the top of the image, another is situated near the middle of the road towards the top, and a third is located at the bottom-left corner. The buildings surrounding the vehicles have dark rooftops, and the roads appear in good condition. There is a crosswalk with delineated pedestrian lines, and trees casting shadows can be seen along the roadside.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4624,
+    "type": "caption"
+  },
+  {
+    "image_id": "10101_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays a segment of a highway with visible lane markings and an overpass crossing over it. The overpass, a relatively small structure, intersects the highway near the botton right corner of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8038,
+    "type": "caption"
+  },
+  {
+    "image_id": "08267_0000.png",
+    "ground_truth": "The overhead image sourced from GoogleEarth shows a basketball court situated to the right side of the frame. There are no visible details regarding the resolution of the image. Surrounding the court, there are patches of greenery. Directly to the left of the basketball court, two large buildings with gray roofs can be seen.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6580,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1133_0005.png",
+    "ground_truth": "This is a high-resolution image from GoogleEarth showing a small plane stationed on a tarmac.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1274,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2701_0031.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth depicts a ship located in the bottom-left portion of the frame against a backdrop of calm waters.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3657,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0579_0014.png",
+    "ground_truth": "The high-resolution image provided by GoogleEarth shows a neighborhood with houses surrounded by a dense vegetated area. There is a ship visible in the bottom-right corner of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 534,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1356_0049.png",
+    "ground_truth": "The image captured by the GF source in high resolution presents a grayscale aerial view of an area with distinct agricultural fields and a small community. There are two bridges visible in the image. The fields display a pattern of neat, rectangular sections, suggesting a well-organized agricultural layout.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1771,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2758_0067.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows a dock with a small ship moored next to the quay and several small vehicles parked on the dock. The ship is loaded with containers and occupies a major portion of the image. On the dock, a unique small vehicle is visible toward the top left corner.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3800,
+    "type": "caption"
+  },
+  {
+    "image_id": "09332_0000.png",
+    "ground_truth": "The image from GoogleEarth displays a dense urban area with a mixture of buildings and infrastructure. Notably, there is a train station located towards the bottom of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7432,
+    "type": "caption"
+  },
+  {
+    "image_id": "11016_0000.png",
+    "ground_truth": "The aerial image sourced from GoogleEarth showcases a segment of a highway with three vehicles visible on the road. The highway appears to be oriented in a north-south direction, with one lane marked for what seems to be a left turn. The first vehicle is on the top most part of the image within the turn lane, while the second vehicle is on the bottom-right corner of the frame, and the third vehicle is situated on the bottom-left side of the image, just above the highway median. No further resolution details are provided, and the scene doesn't contain other distinguishable structures or features.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8784,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1693_0021.png",
+    "ground_truth": "The high-resolution grayscale image, sourced from JL, showcases multiple sports fields in an open area. There are four baseball diamonds and a unique ground track field in an irregular shape stretching from the top to the lower-right part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2634,
+    "type": "caption"
+  },
+  {
+    "image_id": "09319_0000.png",
+    "ground_truth": "The aerial image from GoogleEarth features a bridge spanning horizontally across the image. The bridge cuts across a railway track.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7421,
+    "type": "caption"
+  },
+  {
+    "image_id": "06833_0000.png",
+    "ground_truth": "The image from GoogleEarth features a section of a harbor with multiple ships docked at wooden piers. There is a total of eight large ships arranged along the docks, with the clear greenish waters of the harbor surrounding them. The ships vary slightly in size and shape, some with distinct features such as a red-roofed cabin.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5425,
+    "type": "caption"
+  },
+  {
+    "image_id": "10153_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, showcases an aerial view of a small airplane parked on a tarmac. The aircraft is identifiable by its distinct blue and white color.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8085,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0673_0008.png",
+    "ground_truth": "The high-resolution image from GoogleEarth displays an aerial view of a recreational area. Visible are two basketball courts; one is positioned at the top of the image, and the other is located towards the center of the image. Adjacent to the bottom basketball court is a row of trees forming a green boundary. Below the trees, there is a large structure covered with solar panels.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 617,
+    "type": "caption"
+  },
+  {
+    "image_id": "11018_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays a landscape with an airport prominently occupying the right side of the image, bordered by a water body on one side and urban development on the other. Surrounding the airport are patches of greenery and structures indicative of a suburban area. Additionally, a golf course is visible below the airport, featuring well-manicured grounds.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8786,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0049.png",
+    "ground_truth": "The aerial image showcases a section of an urban environment with high resolution. Several small vehicles are parked along the streets, and residential buildings with gray rooftops and small gardens are visible.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4581,
+    "type": "caption"
+  },
+  {
+    "image_id": "09558_0000.png",
+    "ground_truth": "The image from GoogleEarth shows a bird's-eye view of an urban area with a bridge crossing over a river at the top of the image. The bridge connects the two sides of the riverbank. Two vehicles can be seen on the roads, particularly near the bridge. Buildings and green spaces line the sides of the river, contributing to the urban landscape.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7606,
+    "type": "caption"
+  },
+  {
+    "image_id": "06702_0000.png",
+    "ground_truth": "The image from GoogleEarth features a landscape with arid terrain and a single storage tank located at the bottom-right of the frame. The storage tank, with a circular base, is situated adjacent to a dirt road and a plowed field. There's no visible resolution data for the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5314,
+    "type": "caption"
+  },
+  {
+    "image_id": "11144_0000.png",
+    "ground_truth": "The image sourced from Google Earth features a landscape with a single windmill in the bottom-right region. The windmill is small in size, and upon further observation, it can be noted that there is a distinctive shadow cast by the windmill on the ground.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8883,
+    "type": "caption"
+  },
+  {
+    "image_id": "P4151_0063.png",
+    "ground_truth": "The high-resolution aerial image shows a single small vehicle on a road lined with trees and streetlights. The road is in an urban area with residential buildings alongside.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4106,
+    "type": "caption"
+  },
+  {
+    "image_id": "09406_0000.png",
+    "ground_truth": "This aerial image from Google Earth shows a section of a landscape with various roadways and some built-up areas. In the bottom-middle of the image, there is an overpass.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7486,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1598_0021.png",
+    "ground_truth": "The high-resolution image, identified as originating from 'JL,' features an airport scene with visible aircraft near the runways. There are three small planes, with the largest plane situated in the bottom-right part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2532,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2678_0030.png",
+    "ground_truth": "The high-resolution image from GoogleEarth shows a mix of structures and vehicles. There's a field bordered by trees on one side, with various buildings. Several small vehicles are visible, some parked alongside the buildings, with one vehicle being located at the top-most part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3622,
+    "type": "caption"
+  },
+  {
+    "image_id": "10168_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth depicts a residential area with two vehicles parked near a house with a sizable lawn.The vehicles have distinct colors and positions. The red vehicle is positioned closer to the bottom right of the image, while the blue vehicle is closer to the upper area of the driveway.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8099,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0359_0001.png",
+    "ground_truth": "The high-resolution aerial image from Google Earth features a set of tennis courts adjacent to a building. Three tennis courts are visible, with two at the top right corner of the image and one located further left along the same line. The courts have a green playing surface with white markings and are surrounded by red surface.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 349,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1147_0018.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows an aerial view of a section of an airport tarmac with marked ground servicing lines. The tarmac's background is a blend of gray and beige hues. Visible in the top-left quadrant is a small vehicle.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1315,
+    "type": "caption"
+  },
+  {
+    "image_id": "08571_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, presents a large industrial chimney situated on an industrial site. The chimney towers at the bottom within the image, with its structure occupying a significant space. Adjacent areas show sections of green that suggest the presence of vegetation and cultivated fields, and there are buildings noticeable at the outskirts of the chimney's base.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6815,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0134.png",
+    "ground_truth": "A high-resolution aerial image showing a segment of railroad tracks with several parallel lines. At the right edge of the image, there are five small vehicles situated above the tracks in a roughly perpendicular position.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4634,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1463_0010.png",
+    "ground_truth": "High-resolution image from GoogleEarth showing a highway with lanes going in opposite directions. Visible in the image is a single small vehicle located on the middle-right side of the highway.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2229,
+    "type": "caption"
+  },
+  {
+    "image_id": "08698_0000.png",
+    "ground_truth": "The image from GoogleEarth shows a top-down view of an airfield with a small airplane and a small vehicle present. The airplane is positioned in the middle-right part of the image. The vehicle is located close to the  airplane, with both objects surrounded by tarmac and various airfield markings.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6923,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2645_0013.png",
+    "ground_truth": "The high-resolution image from GoogleEarth displays a docking area adjacent to water with ships and large vehicles. Three ships are visible in the bottom area, one closer to the edge of the water. There is a topmost ship docked, and another ship is present but partially outside the frame. In the top-left area, a large vehicle is parked among other large vehicles, located topmost. Other large vehicles are centrally positioned towards the bottom half of the image area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3585,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2330_0106.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features a solitary small ship navigating through a body of water with a cloudy background. The ship is situated at the bottom-left of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3257,
+    "type": "caption"
+  },
+  {
+    "image_id": "06935_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, depicts a high-angle view of a residential area with a mix of vegetation and housing structures. The focus is on a large vehicle positioned in the middle-right of the image. No image resolution information is provided.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5502,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2721_0022.png",
+    "ground_truth": "The image, sourced from GoogleEarth with a medium resolution, displays an urban area with densely packed buildings and streets. Prominent features include a soccer ball field and a ground track field, both located towards the bottom-middle of the image. The soccer field is distinguishable by its unique arrangement and color contrast compared to the surrounding urban environment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3716,
+    "type": "caption"
+  },
+  {
+    "image_id": "P4151_0048.png",
+    "ground_truth": "The high-resolution aerial image captures a section of an urban area featuring a rooftop of a building and several parked small vehicles. There are at least four visible vehicles, parked parallel to each other, one of which is located on the left side of the image along the bottom edge. Another vehicle is parked at the middle-right edge of the roof, positioned closer to the top of the image relative to the others.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4097,
+    "type": "caption"
+  },
+  {
+    "image_id": "10137_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows a color aerial view of a single large vehicle on a road. There is a large expanse of grass on both sides of the road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8071,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2794_0029.png",
+    "ground_truth": "The high-resolution image from GoogleEarth features a mix of urban elements. There is a running track with visible lanes on the left side of the image, bordered by a noticeable row of bushes. On the right, there is an area with parked cars, and among them is a small vehicle that stands out due to its isolated position at the top-right corner.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3954,
+    "type": "caption"
+  },
+  {
+    "image_id": "09289_0000.png",
+    "ground_truth": "The image provided is a satellite view from Google Earth showing a section of an overpass and a highway beneath it. The highway has multiple lanes that are clearly delineated with lane markings. On either side of the overpass, there is dense vegetation. There is a street lamp visible in the middle sections of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7397,
+    "type": "caption"
+  },
+  {
+    "image_id": "11682_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a dam. The dam's structure spans horizontally across the image, with water visible on both sides.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 9317,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0198_0004.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows a group of tennis courts. There are six tennis courts in total, with a symmetrical arrangement in pairs. The courts are divided into two rows; the top row positioned from the top-left to the top-right, and the bottom row mirrors this layout. Courts have blue playing surfaces bordered by grayish areas.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 215,
+    "type": "caption"
+  },
+  {
+    "image_id": "08569_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows a dry, shrub-dotted terrain with a circular storage tank to the right side. The storage tank has a light green top.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6813,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0117_0003.png",
+    "ground_truth": "A high-resolution image from Google Earth depicts a rural scene with greenery and cultivated fields. In the center of the image is a small baseball diamond positioned at the bottom edge of the image. Surrounding the baseball diamond, there are several trees dot in the fields. There are patches of varying vegetation and a curving road that intersects the fields.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 117,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2645_0020.png",
+    "ground_truth": "A high-resolution satellite image sourced from Google Earth reveals an area with various terrains, including a parking lot dotted with cars, near  the bottom edge, and an expanse of undeveloped land with patches of exposed soil and vegetation. A notable feature within the scene is a large vehicle positioned in the bottom middle area of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3588,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1088_0008.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows a section of an airport with two small planes and a network of taxiways. One plane is positioned near the top of the image, while another is located towards the middle-left section.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1213,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0000.png",
+    "ground_truth": "High-resolution aerial image showcasing the rooftops of a group of structures with the presence of two small vehicles, one positioned towards the right and another at the center of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4494,
+    "type": "caption"
+  },
+  {
+    "image_id": "P6769_0070.png",
+    "ground_truth": "A high-resolution aerial image captures a riverfront area with a parking lot adjacent to a high-rise building. The parking lot has three vehicles in the bottom-right part of the frame. There are trees lining the walkway beside the river.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4451,
+    "type": "caption"
+  },
+  {
+    "image_id": "07483_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, depicts a baseball field characterized by a brown dirt infield and green grass outfield surrounded by fencing. There are no visible image resolution details provided.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5958,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8392_0002.png",
+    "ground_truth": "The image displays a residential area with houses and small vehicles observed from an aerial perspective. The source of the image is GoogleEarth. Several small vehicles are scattered throughout the image, parked near houses along the streets. Trees and roads with intersections can also be observed.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4564,
+    "type": "caption"
+  },
+  {
+    "image_id": "07035_0000.png",
+    "ground_truth": "A satellite image from Google Earth captures a single chimney with smoke billowing from its top. The surroundings are cropped, making it difficult to discern additional context, but the focus is clearly on the prominent chimney structure.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5579,
+    "type": "caption"
+  },
+  {
+    "image_id": "10510_0000.png",
+    "ground_truth": "The GoogleEarth image shows a remote landscape with a single small windmill positioned at the bottom-right of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8379,
+    "type": "caption"
+  },
+  {
+    "image_id": "09509_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, displays a large industrial area with buildings, structures, and a prominent chimney. The chimney occupies a significant portion of the image, with its top visible in the bottom right corner emitting a plume of smoke.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7570,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2779_0002.png",
+    "ground_truth": "The high-resolution aerial image from GoogleEarth depicts a grassy area alongside a road with parked vehicles. Several small vehicles are visible, with one especially near the center right edge being the bottom-most within its vicinity, and one large vehicle is located at the upper right corner overlapping the image boundary.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3868,
+    "type": "caption"
+  },
+  {
+    "image_id": "06536_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a windmill located at the bottom of the frame. No resolution details are provided, and the windmill has its blades spread out, casting a prominent shadow on the ground beneath it.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5187,
+    "type": "caption"
+  },
+  {
+    "image_id": "06891_0000.png",
+    "ground_truth": "An aerial view of a harbor area from Google Earth, showcasing multiple docks and small ships. Harbors and ships are positioned within the image, but their specific sizes and positions are not detailed. Docks extend into the water body, and ships are moored alongside them. The various ships appear as small compared to the docks and some are located towards the bottom-right, bottom-middle.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5465,
+    "type": "caption"
+  },
+  {
+    "image_id": "08988_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a section of a transportation network featuring a small overpass crossing above a road amidst green surroundings. An overpass, visible as a diagonal structure on the image, extends from the center left to the lower right corner.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7156,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1809_0044.png",
+    "ground_truth": "This high-resolution image from Google Earth displays a section of an airport. In the image, there are two planes situated at the airport. The first plane is located towards the top of the image and is the largest one. The second plane is positioned near the first one. Alongside the planes, several small vehicles are visible across the tarmac, mainly situated around the central region.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2781,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0019_0092.png",
+    "ground_truth": "The high-resolution image from GoogleEarth captures a nautical scene featuring a small ship docked in the lower-right area next to a small harbor. The harbor, next to the ship, has a pier and loading area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 53,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2504_0012.png",
+    "ground_truth": "The high-resolution image from GoogleEarth displays a landscape predominantly occupied by agricultural fields with varying shades of green and brown. The fields are segmented by a narrow strip of trees, with a small bridge visible at the bottom of the image connecting two sections of a road. Adjacent to the fields on one side is a residential area with houses organized along streets, while the rest of the surroundings are open farmlands.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3404,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2599_0007.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth showcases two tennis courts, one located more towards the left and the other more towards the center, both with a clay-like surface. Adjacent to the courts and the surrounding area, there's a variety of vegetation with dense tree cover. In the middle-right section of the image, a small vehicle is parked, visible as a distinct element due to its isolated position.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3516,
+    "type": "caption"
+  },
+  {
+    "image_id": "10596_0000.png",
+    "ground_truth": "The image from GoogleEarth shows a ship docked along a dark body of water. The ship is small in size and it is the most prominent object present in this aerial view. It is positioned longitudinally next to a lighter area that is a docking station or pier.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8449,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1581_0005.png",
+    "ground_truth": "This high-resolution grayscale aerial image captured by JL showcases a section of an urban area with a range of infrastructures including buildings, roads, and a circular feature which a roundabout. The roundabout is clearly visible as a distinct shape within the network of connecting roads.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2492,
+    "type": "caption"
+  },
+  {
+    "image_id": "07029_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, features an aerial view centered around a large stadium with an adjacent green playing field. Surrounding the stadium, there are parking areas filled with cars, and to the bottom left corner of the image, there appear to be residential houses with gardens. The stadium's structure includes a curved section with a white roof.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5574,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0352_0008.png",
+    "ground_truth": "The image, sourced from GoogleEarth with high resolution, portrays a baseball diamond surrounded by vehicles and some greenery. The baseball diamond is uniquely identifiable and is positioned in the top of the image. Small vehicles are concentrated in the bottom-right corner, parked along a road.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 344,
+    "type": "caption"
+  },
+  {
+    "image_id": "07898_0000.png",
+    "ground_truth": "Aerial view of a residential neighborhood sourced from GoogleEarth, showing a typical suburban setting with houses, driveways, and lined trees. There are three vehicles in this image parked by the curbside adjacent to the houses, and one is located at a driveway.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6275,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1471_0005.png",
+    "ground_truth": "The high-resolution image from GoogleEarth features a bridge extending from the top left to the bottom right with several small vehicles on and around it. On the bridge's right side, one distinct vehicle is visible at the bottom-most part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2250,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1143_0015.png",
+    "ground_truth": "The image from GoogleEarth with high resolution displays a portion of an airport's parking area with two planes visible. One plane occupies the upper section of the image, while another is located more towards the bottom left. Both planes appear small relative to the overall image size and are oriented diagonally.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1289,
+    "type": "caption"
+  },
+  {
+    "image_id": "06515_0000.png",
+    "ground_truth": "The Google Earth image shows a residential area with houses that have gabled roofs and driveways leading to garages. There is one small vehicle parked on a driveway adjacent to a house, with no other vehicles in close proximity.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5169,
+    "type": "caption"
+  },
+  {
+    "image_id": "10094_0000.png",
+    "ground_truth": "The satellite image from GoogleEarth shows a region with two expressway service areas and a bridge. The service areas and the bridge are amidst a terrain with visible greenery suggesting vegetated surroundings. The first expressway service area is located centrally at the top, while the second one is positioned centrally at the bottom. There is a small bridge on the middle-left side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8032,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2271_0010.png",
+    "ground_truth": "The high-resolution image from GoogleEarth depicts a section of an airport runway. The image shows clear markings for runway number 33. There are two planes located at the top-left corner of the runway, with one being slightly closer to the edge of the runway than the other. Additionally, two large-vehicles are present at the top-left corner, both situated on the grass adjacent to the runway. A unique small-vehicle is parked at the top-middle section, close to the runway.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3150,
+    "type": "caption"
+  },
+  {
+    "image_id": "11484_0000.png",
+    "ground_truth": "Aerial view of a baseball field adjacent to a parking lot and a rail track as seen on GoogleEarth. The field is relatively small in size with clearly marked boundaries and encompasses a diamond-shaped infield with a sandy pit.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 9153,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0019_0055.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows a coastal area featuring harbors and ships. There are two harbors located roughly in the center and towards the right sides of the image and being small in size. There are four ships: three of the ships are near the top right corner, with one of them positioned along the right edge of the image, last ship is along the right edge near the middle of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 35,
+    "type": "caption"
+  },
+  {
+    "image_id": "07433_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows a selection of vehicles and a tennis court in a suburban area with various green spaces and asphalt surfaces. In the residential area on the left, there are visible houses with backyards. A tennis court is located on the far right of the image with its long axis running vertically. There are several vehicles scattered across the view, with one distinctly orange vehicle located near the green space on the top-left and three other vehicles positioned across the middle to left side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5912,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0374_0003.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows two small basketball courts situated close to each other. The courts are marked with white boundary lines, and each has its hoops positioned at the either ends. There is a parking area with no vehicles visible in the top of the image. Surrounded by some trees and pathways, the setting  is a community area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 359,
+    "type": "caption"
+  },
+  {
+    "image_id": "07320_0000.png",
+    "ground_truth": "The image from Google Earth features industrial storage tanks positioned on packed earth with visible pipework. Two storage tanks stand out due to their significant size difference and positions, with the left-most tank appearing notably larger and the right-most tank being relatively smaller.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5820,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0112.png",
+    "ground_truth": "This high-resolution aerial image captures an urban area with buildings and a sports court. A small vehicle is parked on the dark surface near the center-right of the frame.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4618,
+    "type": "caption"
+  },
+  {
+    "image_id": "11371_0000.png",
+    "ground_truth": "The image sourced from GoogleEarth shows an overhead view of a facility with two small storage tanks. The left storage tank, with a light roof, is positioned closer to the left edge of the frame, while the other storage tank, with a white roof, is located towards the right side of the frame. There is a stretch of grassland between the tanks and the tree line, and a road is run along the left side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 9065,
+    "type": "caption"
+  },
+  {
+    "image_id": "09351_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a top-down view of an area with two distinct basketball courts. Both courts present clear markings for the outlines and court divisions.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7449,
+    "type": "caption"
+  },
+  {
+    "image_id": "08441_0000.png",
+    "ground_truth": "Aerial view of a baseball field captured through Google Earth. The field features the characteristic diamond shape with surrounding grassy areas. There are no visible players or game activity on the field.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6717,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0094.png",
+    "ground_truth": "The aerial high-resolution image captures a residential area with rows of houses characterized by dark rooftops. There are ten small vehicles parked along the streets and in parking spaces. One vehicle is present towards the top-left of the frame, notable for being the top-most compared to other vehicles.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4526,
+    "type": "caption"
+  },
+  {
+    "image_id": "11445_0000.png",
+    "ground_truth": "Aerial view of an urban area from GoogleEarth featuring a dense array of buildings with terracotta rooftops, structured in a grid-like pattern with streets separating them. On the right edge of the image is a train station with multiple parallel train tracks and platforms.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 9120,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0961_0024.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth features a calm body of water with eight harbor structures extending into it from the bottom edge. A ship is located towards the bottom-left of the image. ",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 878,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5789_1950.png",
+    "ground_truth": "A grayscale high-resolution image from GF shows a portion of an urban area that includes structures with various roof sizes and a ground track and field. The ground track and field feature an  oval shape with inner sections.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4304,
+    "type": "caption"
+  },
+  {
+    "image_id": "08528_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows an aerial view featuring an overpass. The overpass is visible crossing over a road section, effectively connecting two areas.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6779,
+    "type": "caption"
+  },
+  {
+    "image_id": "05945_0000.png",
+    "ground_truth": "This is an aerial view of a ground track and field from GoogleEarth. The track encompasses several lanes for running, demarcated by white lines, and includes a field area with various sports markings. Surrounding the track are seating areas and a parking lot.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4722,
+    "type": "caption"
+  },
+  {
+    "image_id": "10347_0000.png",
+    "ground_truth": "This aerial image, sourced from GoogleEarth, shows a dam structure on a water body without a specified resolution. The dam is discernible due to its distinctive shape and color.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8240,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0167.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth shows an airport setting with a small airplane and vehicles. The airplane, with red accents on its engines, is positioned at the top-right portion of the image. Surrounding the aircraft are small vehicles, baggage carts and service vehicles, which are located around the middle and edges of the tarmac area. The tarmac itself is marked with guiding lines and parked vehicles.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2925,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1066_0006.png",
+    "ground_truth": "The image, sourced from GoogleEarth and in high resolution, features a small harbor in an aquatic setting.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1169,
+    "type": "caption"
+  },
+  {
+    "image_id": "09427_0000.png",
+    "ground_truth": "This high-resolution aerial image from GoogleEarth captures a recreational area with visible tennis courts and a vehicle. There are four tennis courts. The tennis courts are arranged in two pairs, with one pair vertically aligned at the top of the frame and the other at the bottom. A single white vehicle is prominently situated on a pathway to the middle-right of the scene.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7502,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0949_0011.png",
+    "ground_truth": "The high-resolution image from GoogleEarth depicts a coastal area with four harbors extending into the water. Two small ships located in the left part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 845,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8656_0081.png",
+    "ground_truth": "This high-resolution aerial image captures a densely treed area with a distinctive small vehicle which is on the top-left side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4601,
+    "type": "caption"
+  },
+  {
+    "image_id": "P5789_2415.png",
+    "ground_truth": "The high-resolution image provided by GF shows an overpass with a curved bridge at the bottom part of the image. The bridge is spanning over the water below. The surrounding area is composed of a mixture of vegetation and built structures.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4335,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2722_0021.png",
+    "ground_truth": "The image, sourced from GoogleEarth with medium resolution, displays a mixture of urban infrastructure including bridges, roads, and buildings. Towards the bottom-left corner, there is a small ground track field and a nearby soccer ball field.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3733,
+    "type": "caption"
+  },
+  {
+    "image_id": "P8287_0017.png",
+    "ground_truth": "The image is an aerial high-resolution color photograph showcasing various small vehicles parked along the streets surrounded by buildings with distinct grey rooftops. There are at least nine visible small vehicles in various positions.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4506,
+    "type": "caption"
+  },
+  {
+    "image_id": "09084_0000.png",
+    "ground_truth": "The image from GoogleEarth features an industrial area with structures and storage tanks. There are two storage tanks located towards the top of the image and another positioned at the bottom right. Surrounding these tanks, there are roads, buildings and industrial equipment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7239,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1610_0058.png",
+    "ground_truth": "The grayscale image provided by JL source depicts a high-resolution view of a landscape with an identifiable bridge. The bridge is positioned in the middle-left part of the image that can be seen crossing over an area that is a body of water .",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2573,
+    "type": "caption"
+  },
+  {
+    "image_id": "06246_0000.png",
+    "ground_truth": "The image appears to be a high-resolution aerial view from GoogleEarth, showing a part of a community sports complex. A significant feature is a large ground track and field oval with visible lanes, encompassing an inner grass field. Surrounding this sports area, there are several buildings with different roof shapes and colors, a large parking area to the top-right, and a baseball diamond to the middle-right.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4952,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2241_0000.png",
+    "ground_truth": "The high-resolution image sourced from GoogleEarth features a scene with baseball diamonds and vehicles. There are two baseball diamonds in the image; the bottom-most one is on the right side, and the top-most one is slightly off-center towards the top. Additionally, there are several vehicles visible; some are large vehicles situated near the top-left and middle-left areas of the image, while small vehicles are clustered near the bottom-middle area.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3138,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1376_0101.png",
+    "ground_truth": "The image, sourced from GoogleEarth, presents a high-resolution aerial view featuring a green area with trees and two small storage tanks on the bottom-left side. One of the storage tanks is positioned towards the top of the image. The environment primarily consists of greenery, with variations in vegetation density and a section of a curved pathway adjacent to the treed zone.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 1837,
+    "type": "caption"
+  },
+  {
+    "image_id": "09577_0000.png",
+    "ground_truth": "This aerial image from GoogleEarth features a small industrial compound with various structures. Prominent in the scene is a large chimney located towards the bottom-middle of the image, surrounded by buildings and an open area with patches of sandy terrain.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7622,
+    "type": "caption"
+  },
+  {
+    "image_id": "09402_0000.png",
+    "ground_truth": "The image from GoogleEarth shows an airplane. Surrounding the aircraft are patches of grass and trees.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7483,
+    "type": "caption"
+  },
+  {
+    "image_id": "07367_0000.png",
+    "ground_truth": "This satellite image from Google Earth portrays a section of a landscape with various features. Without specific resolution details, the image highlights a mixture of rural and urban elements. The most prominent feature is a small train station located centrally along multiple railway tracks. Adjacent to the west of the train station, there's a large open area possibly used for parking or outdoor storage. Adjacent to the north and south of the train station, cultivated field patterns are noticeable. The image displays a clear separation between the densely structured built-up area around the train station and the more open, rural agricultural fields.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5862,
+    "type": "caption"
+  },
+  {
+    "image_id": "06299_0000.png",
+    "ground_truth": "The image from GoogleEarth features an aerial view of a ground track and field surrounded by several structures. The ground track and field, distinguishable by its characteristic oval shape and internal field, occupies a significant portion of the image. Surrounding the track are buildings with rectangular shapes and uniformed alignment.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5000,
+    "type": "caption"
+  },
+  {
+    "image_id": "06331_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, shows a high-angle view of a landscape with varied vegetation and constructed areas, including a large building with a dark grey rooftop and a tennis court. The tennis court is vibrant green with white lines, prominently situated towards the right side of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5026,
+    "type": "caption"
+  },
+  {
+    "image_id": "P0961_0010.png",
+    "ground_truth": "The high-resolution image from GoogleEarth features a greenish water body dotted with five harbors. The harbors, positioned along the bottom edge of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 867,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1854_0189.png",
+    "ground_truth": "The high-resolution image, sourced from GoogleEarth, showcases a section of an airport. A small plane can be seen on the left edge of the image. There are also vehicles to the right of the plane, near the center of the image, large vehicle is positioned further to the right and; another large vehicle is located closer to the bottom edge. Small vehicle is near the bottom-left corner and, one more small vehicle is towards the middle-left part of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2939,
+    "type": "caption"
+  },
+  {
+    "image_id": "07219_0000.png",
+    "ground_truth": "This aerial view from Google Earth shows a green ground track and field surrounded by trees and adjacent to a large beige building. There is a mix of paved areas and natural landscape around the track.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5733,
+    "type": "caption"
+  },
+  {
+    "image_id": "P1508_0012.png",
+    "ground_truth": "The high-resolution image from GoogleEarth depicts a segment of an airport tarmac with multiple markings. A helicopter is positioned on the right side of the frame. The tarmac shows wear and usage with visible tire marks and guiding lines.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 2371,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2802_0101.png",
+    "ground_truth": "This high-resolution image from GoogleEarth shows a highway with vehicles driving on it. The road is flanked by green areas with vegetation. There are a number of small vehicles visible on the road, some positioned in the center and others near the bottom edge of the image.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4022,
+    "type": "caption"
+  },
+  {
+    "image_id": "07506_0000.png",
+    "ground_truth": "An aerial view of a small ship docked on a pier, captured by GoogleEarth. The ship is oriented horizontally and occupies a significant portion of the image's midsection. Surrounding the ship are various structures on the pier, hints of water on one side of the pier, and a dark area on the other side.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 5977,
+    "type": "caption"
+  },
+  {
+    "image_id": "08226_0000.png",
+    "ground_truth": "Aerial view image from Google Earth showing part of an airport. There is a single airplane visible on the tarmac, positioned at the bottom edge of the image partially cropped. There is a building with a flat roof at the top-right corner ofthe iamge. Bordering the pavement in the bottom sections are green patches of grass areas",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6547,
+    "type": "caption"
+  },
+  {
+    "image_id": "09464_0000.png",
+    "ground_truth": "The image, sourced from Google Earth, shows a residential street from a top-down perspective. There are four visible vehicles, one located on the right side of the road, and three on the other side. The house in the vicinity have green lawns and trees can be seen casting shadows.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7532,
+    "type": "caption"
+  },
+  {
+    "image_id": "09775_0000.png",
+    "ground_truth": "The aerial image sourced from GoogleEarth features an expressway-toll-station situated centrally with a triangular shape marked on the ground. Surrounding the station area are small vehicles, one of which is located in the bottom-middle part of the image on an overpass. The overpass distinguishes itself with a small size in the same bottom-middle area, and this structure cuts across the image connecting multiple paths.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 7777,
+    "type": "caption"
+  },
+  {
+    "image_id": "10295_0000.png",
+    "ground_truth": "The image from GoogleEarth shows a hilly terrain with a network of winding roads and clusters of buildings interspersed throughout. In the bottom-middle of the image, there is a small expressway toll station.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 8201,
+    "type": "caption"
+  },
+  {
+    "image_id": "06231_0000.png",
+    "ground_truth": "The image, sourced from GoogleEarth, is an aerial view of an expressway service area surrounded by vegetation with small vehicles parked in various locations. Within the service area, there is a building with vehicles parked adjacent to it. The expressway service area occupies a large portion of the image from left to right.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 4941,
+    "type": "caption"
+  },
+  {
+    "image_id": "07697_0000.png",
+    "ground_truth": "This satellite image captured by GoogleEarth features a mix of infrastructure elements such as an expressway toll station and multiple overpasses. The toll station is visible as a small, distinct feature with a surrounding area that accommodates vehicular activity. Three overpasses in different locations within the image show the connectivity of roads with varying orientations.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 6119,
+    "type": "caption"
+  },
+  {
+    "image_id": "P2678_0025.png",
+    "ground_truth": "This high-resolution image from Google Earth depicts a small harbor on the edge of a large body of water. The harbor is situated adjacent to the water.",
+    "question": "Describe the image in detail",
+    "dataset": "RSBench",
+    "question_id": 3621,
+    "type": "caption"
+  }
+]

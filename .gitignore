@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+vlm-pipeline/venv/
+
+# Local model and dataset artifacts
+models/
+vlm-pipeline/models/
+data/vrsbench/
+vlm-pipeline/data/vrsbench/
+vlm-pipeline/data/test_samples/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
