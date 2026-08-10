@@ -78,7 +78,8 @@ def remap_to_global(detections, tile, edge_margin=5):
 
     for d in detections:
 
-        x1 = d["cx"] - d["w"] / 2
+        x1 = d["cx"] - d["w"] / 2 #calculate detection bounds 
+                                #c varialbles are from center
         x2 = d["cx"] + d["w"] / 2
 
         y1 = d["cy"] - d["h"] / 2
@@ -92,7 +93,7 @@ def remap_to_global(detections, tile, edge_margin=5):
             y1 <= edge_margin or
             y2 >= tile_h - edge_margin
 
-        )
+        ) # edge margin is later required for merger so that it can merge detection without any overlaps
 
         global_dets.append({
 
@@ -124,7 +125,8 @@ def obb_to_polygon(cx, cy, w, h, angle_deg):
 
     hw = w / 2
     hh = h / 2
-
+    # This turns the OBB into a shapely polygon
+    # so we can have a IOU for two boxes
     box = Polygon([
         (-hw, -hh),
         ( hw, -hh),
@@ -169,14 +171,14 @@ def rotated_iou(a, b):
 
 def merge_detections(
     detections,
-    iou_threshold=0.5,
+    iou_threshold=0.7,
     edge_center_dist=40
 ):
 
     groups = {}
 
     for d in detections:
-        groups.setdefault(d["class_id"], []).append(d)
+        groups.setdefault(d["class_id"], []).append(d) #This groups the same object type together so we don't have to compare two entirely different objects.
 
     final = []
 
@@ -186,17 +188,17 @@ def merge_detections(
             group,
             key=lambda d: d["score"],
             reverse=True
-        )
+        ) # sorting to keep the highest confidence one
 
-        suppressed = [False] * len(group)
+        suppressed = [False] * len(group) #this is later used to decide which detections to keep if true : suppress that detection.
 
         # Standard Rotated NMS
-        for i, di in enumerate(group):
+        for i, di in enumerate(group): #enumerate through the group 
 
-            if suppressed[i]:
+            if suppressed[i]: # if the detection has already been suppressed then continue
                 continue
 
-            for j in range(i + 1, len(group)):
+            for j in range(i + 1, len(group)): #else this part compares it with the other detections and suppress if above iou threshold
 
                 if suppressed[j]:
                     continue
@@ -208,18 +210,18 @@ def merge_detections(
         kept = [
             i for i in range(len(group))
             if not suppressed[i]
-        ]
+        ]#keep the indexes of all detections which are kept
 
         for i in kept:
 
             di = group[i]
 
-            if not di["touches_edge"]:
+            if not di["touches_edge"]: #
                 continue
 
             for j in kept:
 
-                if i == j or suppressed[j]:
+                if i == j :
                     continue
 
                 dj = group[j]
