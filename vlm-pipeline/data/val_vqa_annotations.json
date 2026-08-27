@@ -1,0 +1,1818 @@
+[
+  {
+    "image_id": "P1751_0044.png",
+    "question": "Are there any buildings visible next to the bridge?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 10641,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10997_0000.png",
+    "question": "What object is captured in the image?",
+    "ground_truth": "dam",
+    "dataset": "RSBench",
+    "question_id": 35091,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2330_0066.png",
+    "question": "What type of objects are predominant in the image?",
+    "ground_truth": "ships",
+    "dataset": "RSBench",
+    "question_id": 12800,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1356_0023.png",
+    "question": "Is the image grayscale or color?",
+    "ground_truth": "grayscale",
+    "dataset": "RSBench",
+    "question_id": 6842,
+    "type": "image"
+  },
+  {
+    "image_id": "10842_0000.png",
+    "question": "Is the top-most tennis court touching the top edge of the image?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 34556,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1179_0030.png",
+    "question": "Is there a helicopter in the image?",
+    "ground_truth": "yes",
+    "dataset": "RSBench",
+    "question_id": 5286,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P2097_0000.png",
+    "question": "In which part of the image is the large vehicle located?",
+    "ground_truth": "Bottom-right",
+    "dataset": "RSBench",
+    "question_id": 12029,
+    "type": "object position"
+  },
+  {
+    "image_id": "P9467_0021.png",
+    "question": "What is the main body of water visible in the image?",
+    "ground_truth": "Ocean",
+    "dataset": "RSBench",
+    "question_id": 18673,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P9467_0021.png",
+    "question": "What is the color of the storage tank?",
+    "ground_truth": "Not visible",
+    "dataset": "RSBench",
+    "question_id": 18674,
+    "type": "object color"
+  },
+  {
+    "image_id": "08323_0000.png",
+    "question": "What is the main type of structure shown in the image?",
+    "ground_truth": "storage tank",
+    "dataset": "RSBench",
+    "question_id": 26672,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1323_0051.png",
+    "question": "How many bridges are there in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 6504,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "09281_0000.png",
+    "question": "Are the ships docked at a pier?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 29620,
+    "type": "reasoning"
+  },
+  {
+    "image_id": "06052_0000.png",
+    "question": "Is there more than one ship in the image?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 19255,
+    "type": "object existence"
+  },
+  {
+    "image_id": "09507_0000.png",
+    "question": "What shape does the stadium have?",
+    "ground_truth": "Circular",
+    "dataset": "RSBench",
+    "question_id": 30278,
+    "type": "object shape"
+  },
+  {
+    "image_id": "11236_0000.png",
+    "question": "What position is the largest airplane located?",
+    "ground_truth": "Bottom-right",
+    "dataset": "RSBench",
+    "question_id": 35838,
+    "type": "object position"
+  },
+  {
+    "image_id": "08134_0000.png",
+    "question": "Where is the windmill positioned in the image?",
+    "ground_truth": "bottom-right",
+    "dataset": "RSBench",
+    "question_id": 26017,
+    "type": "object position"
+  },
+  {
+    "image_id": "11570_0000.png",
+    "question": "What is the main type of vehicle observed in the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 36936,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1356_0030.png",
+    "question": "Is the image in color or grayscale?",
+    "ground_truth": "grayscale",
+    "dataset": "RSBench",
+    "question_id": 6876,
+    "type": "image"
+  },
+  {
+    "image_id": "07028_0000.png",
+    "question": "Is the airplane connected to any ground service?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 22359,
+    "type": "object position"
+  },
+  {
+    "image_id": "10427_0000.png",
+    "question": "Does the image display an urban area?",
+    "ground_truth": "urban",
+    "dataset": "RSBench",
+    "question_id": 33191,
+    "type": "rural or urban"
+  },
+  {
+    "image_id": "P1342_0057.png",
+    "question": "How many bridges are there in the image?",
+    "ground_truth": "4",
+    "dataset": "RSBench",
+    "question_id": 6741,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P5789_0981.png",
+    "question": "Is there a ground-track-field in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 16965,
+    "type": "object existence"
+  },
+  {
+    "image_id": "07312_0000.png",
+    "question": "Is there any vegetation visible in the landscape?",
+    "ground_truth": "sparse vegetation",
+    "dataset": "RSBench",
+    "question_id": 23357,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06569_0000.png",
+    "question": "Is the ground track field oval-shaped?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 20915,
+    "type": "object shape"
+  },
+  {
+    "image_id": "09802_0000.png",
+    "question": "Which direction does the bridge span in the image?",
+    "ground_truth": "Vertical",
+    "dataset": "RSBench",
+    "question_id": 31200,
+    "type": "object direction"
+  },
+  {
+    "image_id": "09121_0000.png",
+    "question": "What prominent structure is visible in the image?",
+    "ground_truth": "chimney",
+    "dataset": "RSBench",
+    "question_id": 29137,
+    "type": "object category"
+  },
+  {
+    "image_id": "09121_0000.png",
+    "question": "Is there emissions coming from the chimney?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 29138,
+    "type": "object existence"
+  },
+  {
+    "image_id": "09906_0000.png",
+    "question": "Do the tanks have uniform patterns on their tops?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 31518,
+    "type": "reasoning"
+  },
+  {
+    "image_id": "08355_0000.png",
+    "question": "How many tennis courts are visible in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 26762,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P2789_0035.png",
+    "question": "How many small vehicles are visible in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 15487,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P1601_0014.png",
+    "question": "Where is the airplane located in the image?",
+    "ground_truth": "left",
+    "dataset": "RSBench",
+    "question_id": 10094,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1601_0014.png",
+    "question": "What is the color scheme of the image?",
+    "ground_truth": "grayscale",
+    "dataset": "RSBench",
+    "question_id": 10096,
+    "type": "image"
+  },
+  {
+    "image_id": "07974_0000.png",
+    "question": "What color is the tarmac?",
+    "ground_truth": "Gray",
+    "dataset": "RSBench",
+    "question_id": 25506,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1569_0059.png",
+    "question": "Does the image feature any body of water?",
+    "ground_truth": "yes",
+    "dataset": "RSBench",
+    "question_id": 9833,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10205_0000.png",
+    "question": "What type of field is inside the running track?",
+    "ground_truth": "Green field",
+    "dataset": "RSBench",
+    "question_id": 32539,
+    "type": "object category"
+  },
+  {
+    "image_id": "11143_0000.png",
+    "question": "Are there any vehicles visible on the overpass?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 35541,
+    "type": "object existence"
+  },
+  {
+    "image_id": "11348_0000.png",
+    "question": "Is the image in color or grayscale?",
+    "ground_truth": "grayscale",
+    "dataset": "RSBench",
+    "question_id": 36205,
+    "type": "image"
+  },
+  {
+    "image_id": "07716_0000.png",
+    "question": "How many tennis courts are visible in the image?",
+    "ground_truth": "4",
+    "dataset": "RSBench",
+    "question_id": 24702,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P0352_0006.png",
+    "question": "Is the baseball diamond surrounded by grass?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 1367,
+    "type": "object position"
+  },
+  {
+    "image_id": "P6089_0003.png",
+    "question": "Where is the vehicle with the obj_id 2 located?",
+    "ground_truth": "top-left",
+    "dataset": "RSBench",
+    "question_id": 17534,
+    "type": "object position"
+  },
+  {
+    "image_id": "P6089_0003.png",
+    "question": "Is the image of an urban or rural area?",
+    "ground_truth": "rural",
+    "dataset": "RSBench",
+    "question_id": 17537,
+    "type": "rural or urban"
+  },
+  {
+    "image_id": "06149_0000.png",
+    "question": "What feature occupies the largest area in the image?",
+    "ground_truth": "Expressway service area",
+    "dataset": "RSBench",
+    "question_id": 19560,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2802_0113.png",
+    "question": "Are there any vehicles located at the top-right of the image?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 16036,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1005_0000.png",
+    "question": "Where is the image located geographically? (urban/rural)",
+    "ground_truth": "rural",
+    "dataset": "RSBench",
+    "question_id": 3973,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P6687_0103.png",
+    "question": "Is there a large vehicle present in the bottom-right area of the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 17719,
+    "type": "object existence"
+  },
+  {
+    "image_id": "09151_0000.png",
+    "question": "What is the category of the unique object in the image?",
+    "ground_truth": "Expressway-toll-station",
+    "dataset": "RSBench",
+    "question_id": 29241,
+    "type": "object category"
+  },
+  {
+    "image_id": "P0936_0018.png",
+    "question": "Is there a visible swimming pool in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 3339,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1903_0007.png",
+    "question": "How many tennis courts are visible?",
+    "ground_truth": "5",
+    "dataset": "RSBench",
+    "question_id": 11701,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P1903_0007.png",
+    "question": "Is there a baseball diamond in this image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 11702,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P8656_0119.png",
+    "question": "What class of objects is most commonly found in this image?",
+    "ground_truth": "Small-vehicle",
+    "dataset": "RSBench",
+    "question_id": 18511,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2645_0007.png",
+    "question": "How many ships are visible in the image?",
+    "ground_truth": "1",
+    "dataset": "RSBench",
+    "question_id": 14175,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P2645_0007.png",
+    "question": "Where is the small ship positioned in relation to the image frame?",
+    "ground_truth": "middle-right",
+    "dataset": "RSBench",
+    "question_id": 14177,
+    "type": "object position"
+  },
+  {
+    "image_id": "07651_0000.png",
+    "question": "What object is visible in the center of the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 24488,
+    "type": "object category"
+  },
+  {
+    "image_id": "05946_0000.png",
+    "question": "What color is the track of the ground track field?",
+    "ground_truth": "Red",
+    "dataset": "RSBench",
+    "question_id": 18923,
+    "type": "object color"
+  },
+  {
+    "image_id": "10004_0000.png",
+    "question": "What is the shape of the road near the toll station?",
+    "ground_truth": "Curving",
+    "dataset": "RSBench",
+    "question_id": 31852,
+    "type": "object shape"
+  },
+  {
+    "image_id": "08441_0000.png",
+    "question": "What is the shape of the baseball field?",
+    "ground_truth": "diamond",
+    "dataset": "RSBench",
+    "question_id": 26970,
+    "type": "object shape"
+  },
+  {
+    "image_id": "P0558_0004.png",
+    "question": "What category does the unique object in the image belong to?",
+    "ground_truth": "ship and harbor",
+    "dataset": "RSBench",
+    "question_id": 2041,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1219_0008.png",
+    "question": "What object is visible in the bottom-right corner of the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 5473,
+    "type": "object category"
+  },
+  {
+    "image_id": "07902_0000.png",
+    "question": "Is the expressway service area a unique feature in this image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 25290,
+    "type": "object category"
+  },
+  {
+    "image_id": "09449_0000.png",
+    "question": "What sport is associated with the unique object in the image?",
+    "ground_truth": "baseball",
+    "dataset": "RSBench",
+    "question_id": 30091,
+    "type": "object category"
+  },
+  {
+    "image_id": "10257_0000.png",
+    "question": "Is the bottom-most ship positioned horizontally across the pier?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 32682,
+    "type": "object position"
+  },
+  {
+    "image_id": "P2724_0005.png",
+    "question": "What type of infrastructure can be seen in the lower right quarter of the image?",
+    "ground_truth": "bridge",
+    "dataset": "RSBench",
+    "question_id": 14839,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2255_0001.png",
+    "question": "What is the main recreational facility visible in the image?",
+    "ground_truth": "baseball diamonds",
+    "dataset": "RSBench",
+    "question_id": 12457,
+    "type": "object category"
+  },
+  {
+    "image_id": "07694_0000.png",
+    "question": "Are there any other structures besides windmills discernible in the image?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 24625,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1390_0038.png",
+    "question": "Are the planes aligned in a single row?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 7868,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1386_0067.png",
+    "question": "Does the ship occupy more or less than half of the image?",
+    "ground_truth": "Less",
+    "dataset": "RSBench",
+    "question_id": 7762,
+    "type": "object size"
+  },
+  {
+    "image_id": "P1397_0018.png",
+    "question": "What is the main object category presented in the image?",
+    "ground_truth": "plane",
+    "dataset": "RSBench",
+    "question_id": 8131,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1738_0009.png",
+    "question": "How many unique objects are there in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 10460,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "06265_0000.png",
+    "question": "Is the expressway toll station the only building visible?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 19933,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06327_0000.png",
+    "question": "Where is the vehicle located?",
+    "ground_truth": "Bottom",
+    "dataset": "RSBench",
+    "question_id": 20153,
+    "type": "object position"
+  },
+  {
+    "image_id": "P7800_0003.png",
+    "question": "How many baseball diamonds are visible?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 17948,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P5789_2216.png",
+    "question": "Are there more harbors at the top or at the bottom of the image?",
+    "ground_truth": "equal",
+    "dataset": "RSBench",
+    "question_id": 17314,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1384_0096.png",
+    "question": "Are there any vehicles visible in the vicinity of the tennis courts?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 7650,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1242_0062.png",
+    "question": "Is the image in grayscale or color?",
+    "ground_truth": "grayscale",
+    "dataset": "RSBench",
+    "question_id": 5804,
+    "type": "image"
+  },
+  {
+    "image_id": "06821_0000.png",
+    "question": "What type of structure is visible in the image?",
+    "ground_truth": "dam",
+    "dataset": "RSBench",
+    "question_id": 21695,
+    "type": "object category"
+  },
+  {
+    "image_id": "09523_0000.png",
+    "question": "What is the main color of the tennis courts?",
+    "ground_truth": "Green",
+    "dataset": "RSBench",
+    "question_id": 30323,
+    "type": "object color"
+  },
+  {
+    "image_id": "P0543_0002.png",
+    "question": "Does the property have a green lawn?",
+    "ground_truth": "yes",
+    "dataset": "RSBench",
+    "question_id": 1929,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P0457_0005.png",
+    "question": "Is the basketball court completely within the image frame?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 1680,
+    "type": "object position"
+  },
+  {
+    "image_id": "09409_0000.png",
+    "question": "What is the main object visible in the image?",
+    "ground_truth": "airport",
+    "dataset": "RSBench",
+    "question_id": 29974,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2733_0020.png",
+    "question": "Does the image show the bridge extending over land or water?",
+    "ground_truth": "water",
+    "dataset": "RSBench",
+    "question_id": 14952,
+    "type": "object position"
+  },
+  {
+    "image_id": "11668_0000.png",
+    "question": "Is there an expressway visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 37242,
+    "type": "object existence"
+  },
+  {
+    "image_id": "09489_0000.png",
+    "question": "Is there a building near the baseball field?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 30209,
+    "type": "object position"
+  },
+  {
+    "image_id": "10859_0000.png",
+    "question": "Is the infield of the baseball field shaped like a square?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 34617,
+    "type": "object shape"
+  },
+  {
+    "image_id": "09722_0000.png",
+    "question": "Are there buildings visible on the airport?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 30938,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06705_0000.png",
+    "question": "Is the road running east-west or north-south?",
+    "ground_truth": "North-south",
+    "dataset": "RSBench",
+    "question_id": 21321,
+    "type": "scene type"
+  },
+  {
+    "image_id": "08988_0000.png",
+    "question": "What color predominantly surrounds the overpass?",
+    "ground_truth": "green",
+    "dataset": "RSBench",
+    "question_id": 28678,
+    "type": "object color"
+  },
+  {
+    "image_id": "08831_0000.png",
+    "question": "Is there vegetation visible near the airport?",
+    "ground_truth": "yes",
+    "dataset": "RSBench",
+    "question_id": 28204,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1542_0037.png",
+    "question": "Where is the bridge located within the image?",
+    "ground_truth": "top-left",
+    "dataset": "RSBench",
+    "question_id": 9736,
+    "type": "object position"
+  },
+  {
+    "image_id": "P5728_0002.png",
+    "question": "How many planes are visible in the image?",
+    "ground_truth": "1",
+    "dataset": "RSBench",
+    "question_id": 16939,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "06724_0000.png",
+    "question": "What color is the vehicle in the image?",
+    "ground_truth": "red",
+    "dataset": "RSBench",
+    "question_id": 21381,
+    "type": "object color"
+  },
+  {
+    "image_id": "11694_0000.png",
+    "question": "How many windmills are visible in the image?",
+    "ground_truth": "3",
+    "dataset": "RSBench",
+    "question_id": 37313,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P0650_0000.png",
+    "question": "Do the tennis courts have fencing or boundaries visible?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 2312,
+    "type": "object existence"
+  },
+  {
+    "image_id": "11337_0000.png",
+    "question": "How many small vehicles have distinguishable positions in the image?",
+    "ground_truth": "6",
+    "dataset": "RSBench",
+    "question_id": 36169,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P0887_0022.png",
+    "question": "What is surrounding the buildings?",
+    "ground_truth": "trees",
+    "dataset": "RSBench",
+    "question_id": 3041,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P2337_0016.png",
+    "question": "What color predominantly surrounds the storage tanks?",
+    "ground_truth": "Green",
+    "dataset": "RSBench",
+    "question_id": 12979,
+    "type": "object color"
+  },
+  {
+    "image_id": "P2504_0005.png",
+    "question": "Is there a roundabout in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 13452,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10200_0000.png",
+    "question": "Is there a ship positioned at the bottom of the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 32525,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P0801_0012.png",
+    "question": "What color are the rooftops of the large buildings?",
+    "ground_truth": "orange",
+    "dataset": "RSBench",
+    "question_id": 2709,
+    "type": "object color"
+  },
+  {
+    "image_id": "P2194_0016.png",
+    "question": "What is the main natural feature to the left side of the highway?",
+    "ground_truth": "Trees",
+    "dataset": "RSBench",
+    "question_id": 12242,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2194_0016.png",
+    "question": "What type of field is partially visible in the bottom corner of the image?",
+    "ground_truth": "Baseball diamond",
+    "dataset": "RSBench",
+    "question_id": 12244,
+    "type": "object category"
+  },
+  {
+    "image_id": "09061_0000.png",
+    "question": "What is the main infrastructure visible in the image?",
+    "ground_truth": "expressway",
+    "dataset": "RSBench",
+    "question_id": 28914,
+    "type": "object category"
+  },
+  {
+    "image_id": "P0822_0001.png",
+    "question": "Which court has a red colored area in it?",
+    "ground_truth": "basketball-court",
+    "dataset": "RSBench",
+    "question_id": 2808,
+    "type": "reasoning"
+  },
+  {
+    "image_id": "09252_0000.png",
+    "question": "Is the left-most overpass smaller or larger than the right-most overpass?",
+    "ground_truth": "smaller",
+    "dataset": "RSBench",
+    "question_id": 29528,
+    "type": "object size"
+  },
+  {
+    "image_id": "07343_0000.png",
+    "question": "What object is visible on the right side of the image?",
+    "ground_truth": "windmill",
+    "dataset": "RSBench",
+    "question_id": 23469,
+    "type": "object category"
+  },
+  {
+    "image_id": "06430_0000.png",
+    "question": "Is there a visible road or path in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 20486,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06430_0000.png",
+    "question": "Does the road or path run north-south or east-west?",
+    "ground_truth": "East-west",
+    "dataset": "RSBench",
+    "question_id": 20487,
+    "type": "object direction"
+  },
+  {
+    "image_id": "07253_0000.png",
+    "question": "Are there any distinct water bodies visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 23136,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P0499_0002.png",
+    "question": "What position is the top-most visible tennis court in?",
+    "ground_truth": "right",
+    "dataset": "RSBench",
+    "question_id": 1772,
+    "type": "object position"
+  },
+  {
+    "image_id": "11576_0000.png",
+    "question": "What color are the lines on the basketball court?",
+    "ground_truth": "white",
+    "dataset": "RSBench",
+    "question_id": 36955,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1242_0031.png",
+    "question": "Where is the bridge located within the image?",
+    "ground_truth": "bottom-left",
+    "dataset": "RSBench",
+    "question_id": 5764,
+    "type": "object position"
+  },
+  {
+    "image_id": "10180_0000.png",
+    "question": "How many ships are present in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 32470,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P8656_0045.png",
+    "question": "What is the position of the bottom-most small vehicle?",
+    "ground_truth": "bottom right",
+    "dataset": "RSBench",
+    "question_id": 18304,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1512_0007.png",
+    "question": "What color is the plane?",
+    "ground_truth": "white and blue",
+    "dataset": "RSBench",
+    "question_id": 9551,
+    "type": "object color"
+  },
+  {
+    "image_id": "07724_0000.png",
+    "question": "Are trees casting shadows visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 24735,
+    "type": "object existence"
+  },
+  {
+    "image_id": "11534_0000.png",
+    "question": "Are there trees lining the road?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 36814,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06178_0000.png",
+    "question": "What color are the roofs of the storage tanks?",
+    "ground_truth": "White",
+    "dataset": "RSBench",
+    "question_id": 19655,
+    "type": "object color"
+  },
+  {
+    "image_id": "P5789_1410.png",
+    "question": "What type of area is depicted in the image?",
+    "ground_truth": "Dock area",
+    "dataset": "RSBench",
+    "question_id": 17060,
+    "type": "scene type"
+  },
+  {
+    "image_id": "07830_0000.png",
+    "question": "What is the relative position of the vehicle with obj_id 1?",
+    "ground_truth": "bottom-middle",
+    "dataset": "RSBench",
+    "question_id": 25060,
+    "type": "object position"
+  },
+  {
+    "image_id": "07563_0000.png",
+    "question": "How many train stations are there in the image?",
+    "ground_truth": "1",
+    "dataset": "RSBench",
+    "question_id": 24240,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "05901_0000.png",
+    "question": "What is the main color of the large open space in the image?",
+    "ground_truth": "Green",
+    "dataset": "RSBench",
+    "question_id": 18790,
+    "type": "object color"
+  },
+  {
+    "image_id": "08220_0000.png",
+    "question": "Are there trees in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 26340,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06487_0000.png",
+    "question": "What type of field is located towards the bottom-right of the image?",
+    "ground_truth": "ground track and field",
+    "dataset": "RSBench",
+    "question_id": 20649,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2363_0004.png",
+    "question": "Are there buildings near the bridge?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 13036,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1178_0043.png",
+    "question": "What object category does the main subject of the image belong to?",
+    "ground_truth": "Plane",
+    "dataset": "RSBench",
+    "question_id": 5252,
+    "type": "object category"
+  },
+  {
+    "image_id": "P0998_0027.png",
+    "question": "Is there a ship present in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 3956,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1518_0011.png",
+    "question": "Is there more than one storage tank in the image?",
+    "ground_truth": "no",
+    "dataset": "RSBench",
+    "question_id": 9669,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "07663_0000.png",
+    "question": "What man-made structure is visible in the lower right portion of the image?",
+    "ground_truth": "Dam",
+    "dataset": "RSBench",
+    "question_id": 24525,
+    "type": "object category"
+  },
+  {
+    "image_id": "10996_0000.png",
+    "question": "Where is the baseball field situated in relation to the surrounding vegetation?",
+    "ground_truth": "bottom left",
+    "dataset": "RSBench",
+    "question_id": 35089,
+    "type": "object position"
+  },
+  {
+    "image_id": "P2194_0007.png",
+    "question": "How many small vehicles are visible in the top-left area of the image?",
+    "ground_truth": "1",
+    "dataset": "RSBench",
+    "question_id": 12216,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "08438_0000.png",
+    "question": "What color is the stadium's track?",
+    "ground_truth": "Blue",
+    "dataset": "RSBench",
+    "question_id": 26962,
+    "type": "object color"
+  },
+  {
+    "image_id": "07236_0000.png",
+    "question": "How many storage tanks are clearly visible?",
+    "ground_truth": "3",
+    "dataset": "RSBench",
+    "question_id": 23079,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "07860_0000.png",
+    "question": "What is the main structure shown in this image?",
+    "ground_truth": "airport",
+    "dataset": "RSBench",
+    "question_id": 25149,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P0175_0000.png",
+    "question": "What color is the small vehicle?",
+    "ground_truth": "white",
+    "dataset": "RSBench",
+    "question_id": 654,
+    "type": "object color"
+  },
+  {
+    "image_id": "07211_0000.png",
+    "question": "Which object is the largest in the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 22981,
+    "type": "object size"
+  },
+  {
+    "image_id": "07211_0000.png",
+    "question": "Is the ship parallel to the quayside?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 22982,
+    "type": "object position"
+  },
+  {
+    "image_id": "P2608_0017.png",
+    "question": "What type of image is this?",
+    "ground_truth": "Aerial",
+    "dataset": "RSBench",
+    "question_id": 13963,
+    "type": "image"
+  },
+  {
+    "image_id": "P0932_0006.png",
+    "question": "Is the top-most ship closer to the left or right edge of the frame?",
+    "ground_truth": "Right",
+    "dataset": "RSBench",
+    "question_id": 3282,
+    "type": "object position"
+  },
+  {
+    "image_id": "P0932_0006.png",
+    "question": "Which object is located at the bottom-middle of the image?",
+    "ground_truth": "ship and harbor",
+    "dataset": "RSBench",
+    "question_id": 3283,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1315_0058.png",
+    "question": "What is the shape of the bridge?",
+    "ground_truth": "rectangular",
+    "dataset": "RSBench",
+    "question_id": 6421,
+    "type": "object shape"
+  },
+  {
+    "image_id": "06543_0000.png",
+    "question": "What is the setting of the area around the overpasses?",
+    "ground_truth": "rural",
+    "dataset": "RSBench",
+    "question_id": 20836,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P8287_0096.png",
+    "question": "How many small vehicles are visible in the image?",
+    "ground_truth": "10",
+    "dataset": "RSBench",
+    "question_id": 18112,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P0179_0039.png",
+    "question": "What is the predominant color of the small vehicles?",
+    "ground_truth": "white",
+    "dataset": "RSBench",
+    "question_id": 748,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1380_0020.png",
+    "question": "Is there a roundabout present in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 7378,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10819_0000.png",
+    "question": "What is the position of the bottom-most windmill?",
+    "ground_truth": "Bottom-left",
+    "dataset": "RSBench",
+    "question_id": 34480,
+    "type": "object position"
+  },
+  {
+    "image_id": "07704_0000.png",
+    "question": "Is the windmill positioned towards the upper or lower half of the image?",
+    "ground_truth": "upper half",
+    "dataset": "RSBench",
+    "question_id": 24659,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1763_0016.png",
+    "question": "Is the bridge located in the upper half of the image?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 10750,
+    "type": "object position"
+  },
+  {
+    "image_id": "07000_0000.png",
+    "question": "What is the main structure captured in this GoogleEarth image?",
+    "ground_truth": "Chimney",
+    "dataset": "RSBench",
+    "question_id": 22258,
+    "type": "object category"
+  },
+  {
+    "image_id": "07000_0000.png",
+    "question": "Is there any smoke visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 22259,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P2625_0014.png",
+    "question": "What color are the large vehicles predominantly in the parking lot?",
+    "ground_truth": "White",
+    "dataset": "RSBench",
+    "question_id": 14066,
+    "type": "object color"
+  },
+  {
+    "image_id": "08945_0000.png",
+    "question": "Is the chimney located towards the edge or center of the image?",
+    "ground_truth": "Edge",
+    "dataset": "RSBench",
+    "question_id": 28549,
+    "type": "object position"
+  },
+  {
+    "image_id": "P0262_0021.png",
+    "question": "Where are the majority of the vehicles located in the image?",
+    "ground_truth": "middle-left",
+    "dataset": "RSBench",
+    "question_id": 1101,
+    "type": "object position"
+  },
+  {
+    "image_id": "10339_0000.png",
+    "question": "What kind of area extends from the central portion towards the right side of the image?",
+    "ground_truth": "Expressway-service-area",
+    "dataset": "RSBench",
+    "question_id": 32885,
+    "type": "scene type"
+  },
+  {
+    "image_id": "10339_0000.png",
+    "question": "Which vehicle is positioned on the right side of the road?",
+    "ground_truth": "Larger vehicle",
+    "dataset": "RSBench",
+    "question_id": 32887,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2462_0002.png",
+    "question": "Where is the large vehicle located in the image?",
+    "ground_truth": "middle-right",
+    "dataset": "RSBench",
+    "question_id": 13309,
+    "type": "object position"
+  },
+  {
+    "image_id": "06697_0000.png",
+    "question": "Is the image color or grayscale?",
+    "ground_truth": "color",
+    "dataset": "RSBench",
+    "question_id": 21291,
+    "type": "image"
+  },
+  {
+    "image_id": "11223_0000.png",
+    "question": "Where is the top-most windmill located in the image?",
+    "ground_truth": "Center",
+    "dataset": "RSBench",
+    "question_id": 35796,
+    "type": "object position"
+  },
+  {
+    "image_id": "07161_0000.png",
+    "question": "Is there an expressway toll station in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 22807,
+    "type": "object existence"
+  },
+  {
+    "image_id": "07849_0000.png",
+    "question": "What is the object in the image?",
+    "ground_truth": "windmill",
+    "dataset": "RSBench",
+    "question_id": 25120,
+    "type": "object category"
+  },
+  {
+    "image_id": "08634_0000.png",
+    "question": "What color dominates the landscape in the image?",
+    "ground_truth": "brown",
+    "dataset": "RSBench",
+    "question_id": 27585,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1133_0004.png",
+    "question": "What is the primary color of the airplane?",
+    "ground_truth": "white",
+    "dataset": "RSBench",
+    "question_id": 4949,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1474_0029.png",
+    "question": "Are all planes oriented in the same direction?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 9297,
+    "type": "object direction"
+  },
+  {
+    "image_id": "11365_0000.png",
+    "question": "What color is the rotor of the windmill?",
+    "ground_truth": "white",
+    "dataset": "RSBench",
+    "question_id": 36272,
+    "type": "object color"
+  },
+  {
+    "image_id": "11384_0000.png",
+    "question": "Where is the vehicle located?",
+    "ground_truth": "Top-left",
+    "dataset": "RSBench",
+    "question_id": 36336,
+    "type": "object position"
+  },
+  {
+    "image_id": "P5070_0124.png",
+    "question": "Is the image captured in an urban or rural setting?",
+    "ground_truth": "urban or rural",
+    "dataset": "RSBench",
+    "question_id": 16792,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P1242_0045.png",
+    "question": "What is the type of image?",
+    "ground_truth": "aerial",
+    "dataset": "RSBench",
+    "question_id": 5780,
+    "type": "image"
+  },
+  {
+    "image_id": "P2766_0028.png",
+    "question": "Are there any storage tanks in the bottom-right area?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 15162,
+    "type": "object existence"
+  },
+  {
+    "image_id": "07354_0000.png",
+    "question": "What is to the right of the tennis court?",
+    "ground_truth": "Basketball court",
+    "dataset": "RSBench",
+    "question_id": 23508,
+    "type": "object position"
+  },
+  {
+    "image_id": "P6089_0001.png",
+    "question": "Is there a vehicle at the bottom-right position of the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 17527,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P5789_1036.png",
+    "question": "What type of sports field is present in the image?",
+    "ground_truth": "baseball-diamond",
+    "dataset": "RSBench",
+    "question_id": 16972,
+    "type": "object category"
+  },
+  {
+    "image_id": "P5789_1973.png",
+    "question": "How many planes are visible in total?",
+    "ground_truth": "6",
+    "dataset": "RSBench",
+    "question_id": 17221,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P2330_0075.png",
+    "question": "What is the main object visible in the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 12832,
+    "type": "object category"
+  },
+  {
+    "image_id": "07526_0000.png",
+    "question": "What type of structure is visible on the right side of the image?",
+    "ground_truth": "chimney",
+    "dataset": "RSBench",
+    "question_id": 24098,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2766_0078.png",
+    "question": "Where is the bottom-most storage tank located?",
+    "ground_truth": "Top-right",
+    "dataset": "RSBench",
+    "question_id": 15228,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1410_0070.png",
+    "question": "Which side of the road is the vegetation on?",
+    "ground_truth": "Side",
+    "dataset": "RSBench",
+    "question_id": 8714,
+    "type": "object position"
+  },
+  {
+    "image_id": "07131_0000.png",
+    "question": "Is there vegetation on both sides of the highway?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 22694,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10449_0000.png",
+    "question": "How many vehicles are visible in the image?",
+    "ground_truth": "1",
+    "dataset": "RSBench",
+    "question_id": 33263,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "10808_0000.png",
+    "question": "Is there grass visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 34433,
+    "type": "object existence"
+  },
+  {
+    "image_id": "08604_0000.png",
+    "question": "How many tennis courts are visible in the image?",
+    "ground_truth": "3",
+    "dataset": "RSBench",
+    "question_id": 27469,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P6669_0000.png",
+    "question": "What main type of area is shown in the image?",
+    "ground_truth": "urban",
+    "dataset": "RSBench",
+    "question_id": 17571,
+    "type": "scene type"
+  },
+  {
+    "image_id": "08970_0000.png",
+    "question": "Does the ground track field include lanes for running?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 28628,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06825_0000.png",
+    "question": "What is the landscape like in the image?",
+    "ground_truth": "arid",
+    "dataset": "RSBench",
+    "question_id": 21710,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P2255_0003.png",
+    "question": "How many baseball diamonds are in the image?",
+    "ground_truth": "5",
+    "dataset": "RSBench",
+    "question_id": 12466,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "06627_0000.png",
+    "question": "What color is the border of the left-most tennis court?",
+    "ground_truth": "Red",
+    "dataset": "RSBench",
+    "question_id": 21082,
+    "type": "object color"
+  },
+  {
+    "image_id": "06878_0000.png",
+    "question": "How many vehicles are visible in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 21870,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P0368_0002.png",
+    "question": "Where is the soccer ball field located in the image?",
+    "ground_truth": "Top",
+    "dataset": "RSBench",
+    "question_id": 1413,
+    "type": "object position"
+  },
+  {
+    "image_id": "08907_0000.png",
+    "question": "What is the main type of structure in the center of the image?",
+    "ground_truth": "train station",
+    "dataset": "RSBench",
+    "question_id": 28418,
+    "type": "object category"
+  },
+  {
+    "image_id": "P2194_0012.png",
+    "question": "Does the image include any structures besides the baseball diamond?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 12230,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10400_0000.png",
+    "question": "How many expressway service areas are there?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 33097,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P1390_0048.png",
+    "question": "How many planes are visible in the image?",
+    "ground_truth": "4",
+    "dataset": "RSBench",
+    "question_id": 7905,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P2547_0012.png",
+    "question": "Is there a roundabout in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 13566,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P0524_0002.png",
+    "question": "Where is the ship located in relation to the harbor?",
+    "ground_truth": "center",
+    "dataset": "RSBench",
+    "question_id": 1834,
+    "type": "object position"
+  },
+  {
+    "image_id": "07879_0000.png",
+    "question": "Is there a golf field in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 25210,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P1384_0002.png",
+    "question": "How many swimming pools can be seen?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 7454,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P1397_0035.png",
+    "question": "How many small vehicles are on the road?",
+    "ground_truth": "3",
+    "dataset": "RSBench",
+    "question_id": 8160,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P1397_0035.png",
+    "question": "What is the feature parallel to the road?",
+    "ground_truth": "ditch",
+    "dataset": "RSBench",
+    "question_id": 8162,
+    "type": "object shape"
+  },
+  {
+    "image_id": "08529_0000.png",
+    "question": "Does the image show roads intersecting near the golf course?",
+    "ground_truth": "yes",
+    "dataset": "RSBench",
+    "question_id": 27229,
+    "type": "object existence"
+  },
+  {
+    "image_id": "07380_0000.png",
+    "question": "How many tennis courts are visible?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 23598,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "08435_0000.png",
+    "question": "Is the area predominantly covered by water, forests, or buildings?",
+    "ground_truth": "Forests",
+    "dataset": "RSBench",
+    "question_id": 26957,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P0352_0000.png",
+    "question": "How many tennis courts are visible in the image?",
+    "ground_truth": "3",
+    "dataset": "RSBench",
+    "question_id": 1349,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "07831_0000.png",
+    "question": "Are there any structures related to agriculture in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 25064,
+    "type": "scene type"
+  },
+  {
+    "image_id": "07831_0000.png",
+    "question": "What category does the object at the top right belong to?",
+    "ground_truth": "vehicle",
+    "dataset": "RSBench",
+    "question_id": 25065,
+    "type": "object category"
+  },
+  {
+    "image_id": "07589_0000.png",
+    "question": "Is the dam placed horizontally or vertically in the image?",
+    "ground_truth": "horizontally",
+    "dataset": "RSBench",
+    "question_id": 24329,
+    "type": "object position"
+  },
+  {
+    "image_id": "06796_0000.png",
+    "question": "What main colors are depicted in the majority of this image?",
+    "ground_truth": "green and reddish",
+    "dataset": "RSBench",
+    "question_id": 21621,
+    "type": "image"
+  },
+  {
+    "image_id": "08794_0000.png",
+    "question": "What color is the field around the basketball court?",
+    "ground_truth": "Green",
+    "dataset": "RSBench",
+    "question_id": 28096,
+    "type": "object color"
+  },
+  {
+    "image_id": "P0583_0000.png",
+    "question": "Do the ships in the image have the same relative size?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 2133,
+    "type": "object size"
+  },
+  {
+    "image_id": "P1066_0016.png",
+    "question": "What is the object located on the middle-left side of the image?",
+    "ground_truth": "ship",
+    "dataset": "RSBench",
+    "question_id": 4610,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1738_0037.png",
+    "question": "How many ships are visible in the image?",
+    "ground_truth": "4",
+    "dataset": "RSBench",
+    "question_id": 10505,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "P2778_0010.png",
+    "question": "What is the main structure visible in the image?",
+    "ground_truth": "Airport tarmac",
+    "dataset": "RSBench",
+    "question_id": 15297,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P0336_0009.png",
+    "question": "What is the shape of the swimming pool on the left side of the image?",
+    "ground_truth": "rectangular",
+    "dataset": "RSBench",
+    "question_id": 1255,
+    "type": "object shape"
+  },
+  {
+    "image_id": "P2197_0018.png",
+    "question": "Are there any buildings visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 12304,
+    "type": "object existence"
+  },
+  {
+    "image_id": "P2197_0018.png",
+    "question": "What is the color of the rooftop of the structure seen in the image?",
+    "ground_truth": "Dark",
+    "dataset": "RSBench",
+    "question_id": 12306,
+    "type": "object color"
+  },
+  {
+    "image_id": "P1065_0027.png",
+    "question": "What surrounds the harbor?",
+    "ground_truth": "Land and vegetation",
+    "dataset": "RSBench",
+    "question_id": 4522,
+    "type": "object category"
+  },
+  {
+    "image_id": "P1397_0066.png",
+    "question": "How many airplanes are displayed?",
+    "ground_truth": "6",
+    "dataset": "RSBench",
+    "question_id": 8259,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "06210_0000.png",
+    "question": "Is there a road visible in the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 19750,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06210_0000.png",
+    "question": "Does the storage tank have a domed roof?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 19751,
+    "type": "object existence"
+  },
+  {
+    "image_id": "06210_0000.png",
+    "question": "What is the predominant color of the trees in the image?",
+    "ground_truth": "Green",
+    "dataset": "RSBench",
+    "question_id": 19752,
+    "type": "object color"
+  },
+  {
+    "image_id": "P2689_0011.png",
+    "question": "Are there any objects positioned on the right side of the image?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 14387,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1384_0034.png",
+    "question": "Are the rooftops of the houses in the image of consistent color?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 7549,
+    "type": "object color"
+  },
+  {
+    "image_id": "P2593_0008.png",
+    "question": "Is the baseball diamond located towards the top or bottom of the image?",
+    "ground_truth": "Bottom",
+    "dataset": "RSBench",
+    "question_id": 13811,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1234_0049.png",
+    "question": "Where is the ship that is distinct from the others located?",
+    "ground_truth": "top-left",
+    "dataset": "RSBench",
+    "question_id": 5651,
+    "type": "object position"
+  },
+  {
+    "image_id": "07387_0000.png",
+    "question": "What is the main structure seen in the image?",
+    "ground_truth": "windmill",
+    "dataset": "RSBench",
+    "question_id": 23624,
+    "type": "scene type"
+  },
+  {
+    "image_id": "P8287_0083.png",
+    "question": "Which direction do the trees cast shadows?",
+    "ground_truth": "Left",
+    "dataset": "RSBench",
+    "question_id": 18063,
+    "type": "reasoning"
+  },
+  {
+    "image_id": "P0331_0009.png",
+    "question": "Where is the bottom-most small vehicle located?",
+    "ground_truth": "Bottom-middle",
+    "dataset": "RSBench",
+    "question_id": 1189,
+    "type": "object position"
+  },
+  {
+    "image_id": "P1268_0038.png",
+    "question": "Is the basketball court parallel to the closest bridge?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 5989,
+    "type": "object position"
+  },
+  {
+    "image_id": "08147_0000.png",
+    "question": "Do the ships have multiple lines visible on their decks?",
+    "ground_truth": "Yes",
+    "dataset": "RSBench",
+    "question_id": 26072,
+    "type": "object existence"
+  },
+  {
+    "image_id": "10652_0000.png",
+    "question": "How many vehicles are visible in the image?",
+    "ground_truth": "2",
+    "dataset": "RSBench",
+    "question_id": 33950,
+    "type": "object quantity"
+  },
+  {
+    "image_id": "06488_0000.png",
+    "question": "Does the image show any built-up urban area?",
+    "ground_truth": "No",
+    "dataset": "RSBench",
+    "question_id": 20658,
+    "type": "object existence"
+  }
+]
