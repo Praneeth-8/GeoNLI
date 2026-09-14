@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoNLI Studio — Satellite Image Reasoning & Multimodal Pipeline</title>
+    <meta name="description" content="GeoNLI Studio combines YOLOv11 OBB tiling detection, Grounding DINO zero-shot text grounding, and Qwen2-VL vision-language reasoning for satellite and aerial imagery.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Bar -->
+        <header class="top-nav">
+            <div class="nav-brand">
+                <div class="brand-badge">
+                    <span class="pulse-dot"></span>
+                    <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <div>
+                    <div class="brand-title">GeoNLI Studio <span class="version-tag">Production v2.5</span></div>
+                    <div class="brand-sub">Satellite Vision-Language Intelligence & Tiled Oriented Object Grounding</div>
+                </div>
+            </div>
+
+            <div class="nav-meta">
+                <div class="model-tags">
+                    <span class="model-chip"><span class="chip-dot yolo"></span>YOLOv11-OBB</span>
+                    <span class="model-chip"><span class="chip-dot dino"></span>Grounding DINO</span>
+                    <span class="model-chip"><span class="chip-dot vlm"></span>Qwen2-VL-2B</span>
+                </div>
+                <div class="system-health" id="system-health">
+                    <span class="health-indicator online" id="health-dot"></span>
+                    <span id="gpu-status-text">Detecting Hardware...</span>
+                    <span class="vram-badge" id="vram-badge">-- MB</span>
+                </div>
+                <button class="icon-button" id="reset-all-btn" title="Reset View (Esc)">
+                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                        <path d="M3 3v5h5"></path>
+                    </svg>
+                    <span>Reset</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Studio Grid -->
+        <div class="studio-grid">
+            <!-- Left Control Panel -->
+            <aside class="control-panel">
+                <!-- Sample Gallery Section -->
+                <div class="panel-card">
+                    <div class="card-header">
+                        <span class="badge-label">Quick Start</span>
+                        <h3>Sample Datasets</h3>
+                    </div>
+                    <p class="section-desc">Select a curated benchmark sample to test the multimodal pipeline instantly.</p>
+                    <div class="samples-carousel" id="samples-gallery">
+                        <div class="sample-skeleton">Loading benchmark imagery...</div>
+                    </div>
+                </div>
+
+                <!-- Input & Configuration Form -->
+                <form id="pipeline-form" class="panel-card">
+                    <div class="card-header">
+                        <span class="badge-label">Configuration</span>
+                        <h3>Input & Inference Settings</h3>
+                    </div>
+
+                    <!-- Upload Zone -->
+                    <div class="form-group">
+                        <label class="field-label">Custom Satellite Image</label>
+                        <div class="dropzone" id="dropzone">
+                            <input type="file" id="file-input" name="image" accept="image/png,image/jpeg,image/jpg,image/webp,image/tiff" class="file-hidden">
+                            <div class="dropzone-content" id="dropzone-prompt">
+                                <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="17 8 12 3 7 8"></polyline>
+                                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                                </svg>
+                                <span class="upload-title">Drop satellite image here or <span class="browse-link">browse</span></span>
+                                <span class="upload-sub">PNG, JPG, TIFF, WEBP up to 50MB</span>
+                            </div>
+                            <div class="file-info hidden" id="file-info">
+                                <span class="file-name" id="file-name-display">filename.png</span>
+                                <button type="button" class="btn-remove-file" id="remove-file-btn" title="Remove image">&times;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text Grounding Query -->
+                    <div class="form-group">
+                        <label for="query-input" class="field-label">
+                            <span>Text Grounding Query (Grounding DINO)</span>
+                            <span class="tooltip" title="Open-vocabulary zero-shot detection for arbitrary target objects">?</span>
+                        </label>
+                        <div class="input-with-icon">
+                            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <input type="text" id="query-input" name="query" placeholder="e.g. aircraft, runway, building, harbor, vessel">
+                        </div>
+                        <div class="preset-chips">
+                            <span class="chip-label">Suggestions:</span>
+                            <button type="button" class="chip-btn" data-target="query-input" data-val="aircraft, runway, plane">aircraft</button>
+                            <button type="button" class="chip-btn" data-target="query-input" data-val="building, road, vehicle">urban & roads</button>
+                            <button type="button" class="chip-btn" data-target="query-input" data-val="ship, boat, harbor, dock">maritime / ships</button>
+                            <button type="button" class="chip-btn" data-target="query-input" data-val="storage tank, industrial facility">industrial</button>
+                        </div>
+                    </div>
+
+                    <!-- VQA Question -->
+                    <div class="form-group">
+                        <label for="vqa-input" class="field-label">
+                            <span>Visual Question Answering (Qwen2-VL)</span>
+                            <span class="tooltip" title="Ask complex geospatial questions about spatial arrangements, count, or context">?</span>
+                        </label>
+                        <div class="input-with-icon">
+                            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <input type="text" id="vqa-input" name="vqa_question" placeholder="e.g. How many airplanes and jet bridges are visible?">
+                        </div>
+                        <div class="preset-chips">
+                            <span class="chip-label">Suggestions:</span>
+                            <button type="button" class="chip-btn" data-target="vqa-input" data-val="How many airplanes and jet bridges are visible on the apron?">Count aircraft</button>
+                            <button type="button" class="chip-btn" data-target="vqa-input" data-val="Describe the urban density and road layout.">Urban density</button>
+                            <button type="button" class="chip-btn" data-target="vqa-input" data-val="What type of agricultural patterns and vegetation are present?">Farmland</button>
+                        </div>
+                    </div>
+
+                    <!-- Confidence Threshold Slider -->
+                    <div class="form-group">
+                        <div class="slider-header">
+                            <label for="conf-slider" class="field-label">Confidence Threshold</label>
+                            <span class="slider-val" id="conf-val">0.25</span>
+                        </div>
+                        <input type="range" id="conf-slider" min="0.05" max="0.90" step="0.05" value="0.25" class="custom-range">
+                    </div>
+
+                    <!-- Tiling Hyperparameters -->
+                    <div class="form-row">
+                        <div class="form-group flex-1">
+                            <label for="tile-size-select" class="field-label">Tile Size</label>
+                            <select id="tile-size-select" name="tile_size" class="custom-select">
+                                <option value="256">256 px (Fine)</option>
+                                <option value="512" selected>512 px (Balanced)</option>
+                                <option value="1024">1024 px (Fast/Large)</option>
+                            </select>
+                        </div>
+                        <div class="form-group flex-1">
+                            <label for="overlap-select" class="field-label">Tile Overlap</label>
+                            <select id="overlap-select" name="overlap" class="custom-select">
+                                <option value="32">32 px (Minimal)</option>
+                                <option value="64" selected>64 px (Optimal)</option>
+                                <option value="128">128 px (High)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Pipeline Feature Switches -->
+                    <div class="switches-grid">
+                        <label class="switch-item">
+                            <input type="checkbox" id="toggle-yolo" name="run_yolo" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text">YOLO OBB Detections</span>
+                        </label>
+                        <label class="switch-item">
+                            <input type="checkbox" id="toggle-grounding" name="run_grounding" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text">Grounding DINO</span>
+                        </label>
+                        <label class="switch-item">
+                            <input type="checkbox" id="toggle-captioning" name="run_captioning" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text">VLM Scene Caption</span>
+                        </label>
+                        <label class="switch-item">
+                            <input type="checkbox" id="toggle-vqa" name="run_vqa" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text">VLM Question Answering</span>
+                        </label>
+                    </div>
+
+                    <!-- Submit Action Button -->
+                    <button type="submit" class="btn-primary" id="btn-submit">
+                        <span class="btn-spinner hidden" id="btn-spinner"></span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        <span id="btn-text">Execute GeoNLI Pipeline</span>
+                        <span class="shortcut-badge">Ctrl+↵</span>
+                    </button>
+                </form>
+            </aside>
+
+            <!-- Right Workspace & Visualizer Area -->
+            <main class="workspace-area">
+                <!-- Live Pipeline Stepper Status -->
+                <div class="stepper-card" id="stepper-card">
+                    <div class="stepper-track">
+                        <div class="step-node active" data-step="1">
+                            <div class="step-circle">1</div>
+                            <span class="step-label">Spatial Tiling</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step-node" data-step="2">
+                            <div class="step-circle">2</div>
+                            <span class="step-label">YOLO OBB</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step-node" data-step="3">
+                            <div class="step-circle">3</div>
+                            <span class="step-label">Rotated NMS</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step-node" data-step="4">
+                            <div class="step-circle">4</div>
+                            <span class="step-label">Grounding DINO</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step-node" data-step="5">
+                            <div class="step-circle">5</div>
+                            <span class="step-label">Qwen2-VL VLM</span>
+                        </div>
+                    </div>
+                    <div class="status-banner" id="status-banner">
+                        <span class="status-msg" id="status-msg">System ready. Select a benchmark sample or upload your satellite image.</span>
+                        <span class="status-timer hidden" id="status-timer">0.0s</span>
+                    </div>
+                </div>
+
+                <!-- High-Impact Summary Metrics -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon tile-icon">⊞</div>
+                        <div>
+                            <div class="metric-value" id="val-tiles">0</div>
+                            <div class="metric-title">Tiles Generated</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon yolo-icon">🎯</div>
+                        <div>
+                            <div class="metric-value" id="val-yolo">0</div>
+                            <div class="metric-title">YOLO Detections</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon dino-icon">⚡</div>
+                        <div>
+                            <div class="metric-value" id="val-grounding">0</div>
+                            <div class="metric-title">Grounding Matches</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon time-icon">⏱️</div>
+                        <div>
+                            <div class="metric-value" id="val-time">0.0s</div>
+                            <div class="metric-title">Total Runtime</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualizer Viewport Card -->
+                <div class="visualizer-card" id="visualizer-card">
+                    <div class="visualizer-toolbar">
+                        <div class="tab-group">
+                            <button class="tab-btn active" data-view="side-by-side" id="tab-side-by-side" title="Shortcut: 1">Side by Side</button>
+                            <button class="tab-btn" data-view="annotated" id="tab-annotated" title="Shortcut: 2">Annotated View</button>
+                            <button class="tab-btn" data-view="original" id="tab-original" title="Shortcut: 3">Original Source</button>
+                        </div>
+
+                        <!-- Zoom & Pan Toolbar Controls -->
+                        <div class="zoom-controls">
+                            <button class="zoom-btn" id="btn-zoom-out" title="Zoom Out (-)">−</button>
+                            <span class="zoom-level-badge" id="zoom-level-badge">100%</span>
+                            <button class="zoom-btn" id="btn-zoom-in" title="Zoom In (+)">+</button>
+                            <button class="zoom-btn" id="btn-zoom-fit" title="Fit to Screen (0)">Fit</button>
+                            <button class="zoom-btn" id="btn-zoom-reset" title="1:1 Pixel Reset">1:1</button>
+                        </div>
+
+                        <div class="view-actions">
+                            <span class="res-badge" id="image-res-badge">0 × 0 px</span>
+                            <a id="download-annotated-btn" class="action-link disabled" download="geonli_annotated.png" title="Download Full-Resolution Annotated Image">
+                                <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                <span>Save Annotated</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Visualizer Canvas Container -->
+                    <div class="canvas-stage" id="canvas-stage">
+                        <!-- Original Pane -->
+                        <div class="viewer-pane" id="pane-original">
+                            <div class="pane-tag">Original Satellite Frame</div>
+                            <div class="pan-zoom-wrapper" id="wrapper-original">
+                                <img id="img-original" alt="Original satellite image preview" class="preview-img">
+                            </div>
+                            <div class="img-placeholder" id="placeholder-original">
+                                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                    <polyline points="21 15 16 10 5 21"></polyline>
+                                </svg>
+                                <span>No satellite image loaded</span>
+                            </div>
+                        </div>
+
+                        <!-- Annotated Pane -->
+                        <div class="viewer-pane" id="pane-annotated">
+                            <div class="pane-tag">GeoNLI AI Detection Overlay</div>
+                            <div class="pan-zoom-wrapper" id="wrapper-annotated">
+                                <img id="img-annotated" alt="Annotated detection output" class="preview-img">
+                                <div class="interactive-overlay" id="interactive-overlay"></div>
+                            </div>
+                            <div class="img-placeholder" id="placeholder-annotated">
+                                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                    <polyline points="2 17 12 22 22 17"></polyline>
+                                    <polyline points="2 12 12 17 22 12"></polyline>
+                                </svg>
+                                <span>Annotations will render here after execution</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hint banner for interactive navigation -->
+                    <div class="viewport-hints">
+                        <span>💡 <strong>Scroll</strong> to zoom • <strong>Click & Drag</strong> to pan • Click any detection in the table below to center on target</span>
+                    </div>
+                </div>
+
+                <!-- Multimodal VLM Insights Section -->
+                <div class="vlm-insights-grid">
+                    <!-- Scene Caption Card -->
+                    <div class="panel-card insight-card">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="badge-label purple">Qwen2-VL-2B</span>
+                                <h3>Geospatial Scene Description</h3>
+                            </div>
+                            <button class="btn-copy" id="copy-caption-btn" title="Copy Caption">
+                                <svg viewBox="0 0 24 24" width="13" height="13" stroke="currentColor" stroke-width="2" fill="none">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                </svg>
+                                <span>Copy</span>
+                            </button>
+                        </div>
+                        <div class="insight-content" id="caption-box">
+                            <p class="empty-state">Detailed vision-language description will appear here after analysis.</p>
+                        </div>
+                    </div>
+
+                    <!-- VQA Answer Card -->
+                    <div class="panel-card insight-card">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="badge-label cyan">Visual QA</span>
+                                <h3>Target Reasoning & Answer</h3>
+                            </div>
+                            <button class="btn-copy" id="copy-vqa-btn" title="Copy Answer">
+                                <svg viewBox="0 0 24 24" width="13" height="13" stroke="currentColor" stroke-width="2" fill="none">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                </svg>
+                                <span>Copy</span>
+                            </button>
+                        </div>
+                        <div class="insight-content" id="vqa-box">
+                            <div class="vqa-question-display hidden" id="vqa-question-display">
+                                <strong>Question:</strong> <span id="vqa-question-text">None asked</span>
+                            </div>
+                            <div class="vqa-answer-display" id="vqa-answer-text">
+                                <p class="empty-state">VQA reasoning output will appear here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detections Breakdown & Grounding Inspector -->
+                <div class="inspector-card panel-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                            <span class="badge-label emerald">Inspector</span>
+                            <h3>Oriented Bounding Boxes & Grounding Targets</h3>
+                        </div>
+                        <div class="table-controls">
+                            <input type="text" id="filter-input" placeholder="Filter by class or engine..." class="search-input">
+                            <button class="btn-secondary" id="export-csv-btn" title="Export detections to CSV">Export CSV</button>
+                            <button class="btn-secondary" id="export-json-btn" title="Export full analysis JSON">Export JSON</button>
+                        </div>
+                    </div>
+
+                    <!-- Category Breakdown Filter Chips -->
+                    <div class="class-filter-bar" id="class-filter-bar">
+                        <span class="filter-title">Classes:</span>
+                        <div class="filter-chips-container" id="filter-chips-container">
+                            <span class="class-chip active" data-class="ALL">All (0)</span>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="data-table" id="detections-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Engine</th>
+                                    <th>Class / Label</th>
+                                    <th>Confidence</th>
+                                    <th>Coordinates (cx, cy / x1, y1)</th>
+                                    <th>Dimensions (w × h)</th>
+                                    <th>Angle</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                                <tr>
+                                    <td colspan="8" class="text-center empty-cell">No detections recorded yet. Run the pipeline to inspect bounding objects.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div>GeoNLI — Geospatial Natural Language Intelligence & Oriented Tiled Vision</div>
+            <div class="footer-links">
+                <span class="footer-tag">YOLOv11-OBB</span> • 
+                <span class="footer-tag">Grounding DINO</span> • 
+                <span class="footer-tag">Qwen2-VL-2B-Instruct</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

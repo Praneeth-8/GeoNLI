@@ -1,0 +1,18 @@
+index,image_id,category,image_size,tiles,final_detection_count,detection_classes,grounding_count,vqa_question,vqa_output,vqa_expected,yolo_ms,grounding_ms,vlm_ms,total_ms,annotated_image
+1,airport.jpg,Aviation & Infrastructure,1024x1024,9,103,"large vehicle, small vehicle",2,What type of facility is shown and how many large aircraft are visible?,"The image shows a satellite image of a facility, likely a space station or a similar space facility. There are no visible large aircraft in the image.",Commercial Airport / multiple aircraft on apron,4906,1117,45572,51597,captioned_images/001_airport_annotated.png
+2,urban_city.jpg,Dense Urban & Transportation,1024x1281,9,2,ship,0,Describe the urban density and the road network pattern.,"The urban density appears to be high, with numerous buildings and structures densely packed together. The road network pattern shows a grid-like structure with straight streets and intersections, indicating a well-developed infrastructure.",High density residential/commercial grid with road network,390,998,58000,59390,captioned_images/002_urban_city_annotated.png
+3,agricultural_fields.jpg,Agriculture & Land Use,1024x576,6,0,none,1,What agricultural patterns and vegetation types are visible?,"The visible agricultural patterns and vegetation types include:
+
+1. **Crops**: There are patches of crops, likely corn or soybeans, indicated by the green areas.
+2. **Herbaceous Vegetation**: There are patches of grass and other herbaceous plants, which are common in agricultural fields.
+3. **Trees",Cultivated farmland plots and vegetation,209,3643,55596,59450,captioned_images/003_agricultural_fields_annotated.png
+4,sample_tile.png,Synthetic Calibration,512x512,1,0,none,2,Describe the colored geometric regions in this calibration tile.,"The colored geometric regions in this calibration tile are:
+
+1. A blue oval.
+2. Four gray squares.","Geometric shapes, intersecting grid lines, and colored zones",29,729,41772,42531,captioned_images/004_sample_tile_annotated.png
+5,05866_0000.png,VRSBench Satellite Benchmark,512x512,1,0,none,1,What is the main structure crossing the highway?,bridge,overpass,29,716,42421,43167,captioned_images/005_05866_0000_annotated.png
+6,05867_0000.png,VRSBench Satellite Benchmark,512x512,1,0,none,1,Does the image include any roads?,No,Yes,27,736,38269,39033,captioned_images/006_05867_0000_annotated.png
+7,05871_0000.png,VRSBench Satellite Benchmark,512x512,1,0,none,0,What object is situated at the bottom of the image?,A satellite image,train station,27,743,37989,38760,captioned_images/007_05871_0000_annotated.png
+8,05883_0000.png,VRSBench Satellite Benchmark,512x512,1,0,none,0,Is the windmill surrounded by any buildings or structures?,no,No,18,721,37394,38134,captioned_images/008_05883_0000_annotated.png
+9,05896_0000.png,VRSBench Satellite Benchmark,512x512,1,3,plane,5,Are the airplanes parked near boarding bridges?,no,Yes,45,741,37655,38442,captioned_images/009_05896_0000_annotated.png
+10,05901_0000.png,VRSBench Satellite Benchmark,512x512,1,3,"ground track field, roundabout",1,What is the main color of the large open space in the image?,Blue,Green,44,696,37718,38459,captioned_images/010_05901_0000_annotated.png

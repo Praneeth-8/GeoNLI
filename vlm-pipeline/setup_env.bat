@@ -57,6 +57,8 @@ pip install ^
     nltk>=3.8.0 ^
     rouge-score>=0.1.2 ^
     evaluate>=0.4.0 ^
+    shapely>=2.0.0 ^
+    ultralytics>=8.0.0 ^
     tqdm>=4.66.0 ^
     pdfplumber -q
 echo       Done.

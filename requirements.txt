@@ -1,0 +1,2 @@
+# Root requirements for GeoNLI full stack (Backend, Vision, Grounding, VLM Pipeline & Web App)
+-r vlm-pipeline/requirements.txt

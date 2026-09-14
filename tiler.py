@@ -169,7 +169,7 @@ def rotated_iou(a, b):
 
 def merge_detections(
     detections,
-    iou_threshold=0.5,
+    iou_threshold=0.7,
     edge_center_dist=40
 ):
 

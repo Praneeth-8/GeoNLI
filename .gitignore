@@ -17,6 +17,18 @@ vlm-pipeline/models/
 data/vrsbench/
 vlm-pipeline/data/vrsbench/
 vlm-pipeline/data/test_samples/
+vlm-pipeline/data/raw_annotations/
+vlm-pipeline/data/train_images/
+vlm-pipeline/data/*_annotations.json
+vlm-pipeline/data/*_formatted.json
+vlm-pipeline/data/*_subset.json
+Ultralytics/
+*.pt
+*.zip
+detections*.png
+frontend/runs/
+frontend/uploads/
+dist/
 
 # OS/editor files
 .DS_Store

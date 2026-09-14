@@ -14,7 +14,9 @@ if hasattr(sys.stdout, "reconfigure"):
 warnings.filterwarnings("ignore")
 
 DEFAULT_MODEL = "Qwen/Qwen2-VL-2B-Instruct"
-DEFAULT_CACHE_DIR = os.path.join(os.path.dirname(__file__), "models")
+_candidate_cache_1 = os.path.join(os.path.dirname(__file__), "vlm-pipeline", "models")
+_candidate_cache_2 = os.path.join(os.path.dirname(__file__), "models")
+DEFAULT_CACHE_DIR = _candidate_cache_1 if os.path.exists(_candidate_cache_1) else _candidate_cache_2
 
 DEFAULT_CAPTION_PROMPT = (
     "You are analyzing a satellite or aerial image tile. "
@@ -73,47 +75,16 @@ def build_runtime_config(args) -> dict:
 
 def load_model_and_processor(config: dict):
     import torch
-    from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
+    from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2VLForConditionalGeneration
 
     model_id = config["model_id"]
     cache_dir = config["cache_dir"]
-    cuda_ok = config["cuda_available"]
-    load_4bit = config["load_in_4bit"]
-    load_8bit = config["load_in_8bit"]
-    no_quantization = config["no_quantization"]
+    cuda_ok = config.get("cuda_available", torch.cuda.is_available())
+    load_in_4bit = config.get("load_in_4bit", False)
+    load_in_8bit = config.get("load_in_8bit", False)
+    no_quantization = config.get("no_quantization", False)
 
-    print()
-    print(f"Loading model: {model_id}")
-    print(f"CUDA available: {cuda_ok}")
-
-    quant_config = None
-    dtype = torch.float32
-    device_map = "cpu"
-
-    if cuda_ok:
-        dtype = torch.float16
-        device_map = "auto"
-        if no_quantization:
-            print("Mode: float16 without quantization")
-        else:
-            try:
-                from transformers import BitsAndBytesConfig
-
-                if load_8bit:
-                    quant_config = BitsAndBytesConfig(load_in_8bit=True)
-                    print("Mode: 8-bit quantization")
-                elif load_4bit:
-                    quant_config = BitsAndBytesConfig(
-                        load_in_4bit=True,
-                        bnb_4bit_quant_type="nf4",
-                        bnb_4bit_compute_dtype=torch.float16,
-                        bnb_4bit_use_double_quant=True,
-                    )
-                    print("Mode: 4-bit quantization")
-            except ImportError:
-                print("bitsandbytes is not available. Falling back to standard loading.")
-    else:
-        print("Mode: CPU float32")
+    print(f"\nLoading VLM model: {model_id}")
 
     try:
         processor = AutoProcessor.from_pretrained(
@@ -122,30 +93,83 @@ def load_model_and_processor(config: dict):
             min_pixels=256 * 28 * 28,
             max_pixels=512 * 28 * 28,
             local_files_only=True,
-            trust_remote_code=True,
         )
     except Exception as exc:
-        print(f"Processor loading failed: {exc}")
-        print("Run: python download_model.py")
-        sys.exit(1)
+        raise RuntimeError(f"Processor loading failed: {exc}. Please check cache at {cache_dir}")
 
-    try:
-        model_kwargs = {
-            "cache_dir": cache_dir,
-            "torch_dtype": dtype,
-            "device_map": device_map,
-            "local_files_only": True,
-            "trust_remote_code": True,
-        }
-        if quant_config is not None:
-            model_kwargs["quantization_config"] = quant_config
+    model = None
+    if cuda_ok:
+        device_name = torch.cuda.get_device_name(0)
+        free_vram, total_vram = torch.cuda.mem_get_info()
+        free_gb = free_vram / (1024**3)
+        total_gb = total_vram / (1024**3)
+        print(f"CUDA detected: {device_name} ({free_gb:.2f} GB free / {total_gb:.2f} GB total)")
 
-        model = Qwen2VLForConditionalGeneration.from_pretrained(model_id, **model_kwargs)
-        model.eval()
-    except Exception as exc:
-        print(f"Model loading failed: {exc}")
-        sys.exit(1)
+        torch.cuda.empty_cache()
+        if load_in_4bit or (not no_quantization and not load_in_8bit and free_gb < 5.5):
+            print("Allocating Qwen2-VL with 4-bit NF4 quantization on GPU...")
+            try:
+                bnb_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.float16,
+                    bnb_4bit_quant_type="nf4",
+                    llm_int8_enable_fp32_cpu_offload=True,
+                )
+                model = Qwen2VLForConditionalGeneration.from_pretrained(
+                    model_id,
+                    cache_dir=cache_dir,
+                    quantization_config=bnb_config,
+                    device_map="auto",
+                    local_files_only=True,
+                    low_cpu_mem_usage=True,
+                )
+            except Exception as e:
+                print(f"4-bit CUDA load failed: {e}")
+                model = None
 
+        elif load_in_8bit:
+            print("Allocating Qwen2-VL with 8-bit quantization on GPU...")
+            try:
+                bnb_config = BitsAndBytesConfig(load_in_8bit=True)
+                model = Qwen2VLForConditionalGeneration.from_pretrained(
+                    model_id,
+                    cache_dir=cache_dir,
+                    quantization_config=bnb_config,
+                    device_map="auto",
+                    local_files_only=True,
+                    low_cpu_mem_usage=True,
+                )
+            except Exception as e:
+                print(f"8-bit CUDA load failed: {e}")
+                model = None
+
+        elif free_gb >= 5.5 and not load_in_4bit:
+            print("Allocating Qwen2-VL with float16 on GPU...")
+            try:
+                model = Qwen2VLForConditionalGeneration.from_pretrained(
+                    model_id,
+                    cache_dir=cache_dir,
+                    torch_dtype=torch.float16,
+                    device_map="auto",
+                    local_files_only=True,
+                    low_cpu_mem_usage=True,
+                )
+            except Exception as e:
+                print(f"FP16 CUDA load failed: {e}")
+                model = None
+
+    if model is None:
+        print("Allocating Qwen2-VL to CPU float32...")
+        model = Qwen2VLForConditionalGeneration.from_pretrained(
+            model_id,
+            cache_dir=cache_dir,
+            torch_dtype=torch.float32,
+            device_map={"": "cpu"},
+            local_files_only=True,
+            low_cpu_mem_usage=True,
+        )
+
+    model.eval()
     return model, processor
 
 
@@ -159,8 +183,7 @@ def run_inference(model, processor, image_path: str, prompt: str, max_new_tokens
         width, height = image.size
         print(f"Image: {os.path.basename(image_path)} ({width}x{height})")
     except Exception as exc:
-        print(f"Could not open image '{image_path}': {exc}")
-        sys.exit(1)
+        raise FileNotFoundError(f"Could not open image '{image_path}': {exc}")
 
     messages = [
         {

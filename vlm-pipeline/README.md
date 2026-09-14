@@ -32,4 +32,5 @@ If no image is passed, the script uses `data/sample_tile.png`.
 
 - `venv/`, `models/`, and downloaded datasets are not meant to be committed.
 - The repository keeps a lightweight sample image for smoke testing, not full datasets or model weights.
+- Testing reports and sample evaluation outputs are kept in the top-level `test result/` folder.
 - Real evaluation should be done against VRSBench or another remote sensing benchmark, not the synthetic sample alone.
