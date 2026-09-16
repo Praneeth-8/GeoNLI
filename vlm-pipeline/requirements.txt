@@ -1,7 +1,7 @@
 # Core deep learning
-torch==2.4.1+cu121
-torchvision==0.19.1+cu121
-torchaudio==2.4.1+cu121
+#torch==2.4.1+cu121
+#torchvision==0.19.1+cu121
+#torchaudio==2.4.1+cu121
 
 # Transformers ecosystem
 transformers==4.46.3
@@ -18,8 +18,8 @@ qwen-vl-utils>=0.0.8
 bitsandbytes>=0.43.0
 
 # LoRA fine-tuning (for later)
-peft>=0.12.0
-trl>=0.11.0
+#peft>=0.12.0
+#trl>=0.11.0
 
 # Image processing
 Pillow>=10.0.0
