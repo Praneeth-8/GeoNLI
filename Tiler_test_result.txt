@@ -1,0 +1,17 @@
+FULL RESULTS
+Precision: 0.8334 (83.34%)
+Recall:    0.9330 (93.30%)
+F1-score:  0.8804
+TP=1921, FP=384, FN=138
+Mean seconds/image: 0.048
+
+TILED RESULTS
+Precision: 0.7900 (79.00%)
+Recall:    0.9354 (93.54%)
+F1-score:  0.8566
+TP=1926, FP=512, FN=133
+Mean seconds/image: 0.207
+
+Per-image metrics saved to tiler_metrics.csv
+IoU threshold: 0.5
+Tile overlap: 64
